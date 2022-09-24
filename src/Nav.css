@@ -1,0 +1,10 @@
+.nav {
+  padding: 5px 5px;
+  background-color: lightgray;
+}
+
+.nav > h4 {
+  margin-left: 40px;
+  font-weight: 400;
+  
+}
