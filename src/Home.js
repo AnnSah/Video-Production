@@ -5,6 +5,7 @@ import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import AddAPhotoIcon from '@mui/icons-material/AddAPhoto';
 import HdIcon from '@mui/icons-material/Hd';
 import "./Home.css";
+import Footer from './Footer';
 
 
 function Home() {
@@ -146,6 +147,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div >
 
     )
