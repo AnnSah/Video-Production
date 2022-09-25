@@ -12,7 +12,7 @@ function Home() {
         <div className="home">
             <div className="home__info ">
                 <span>A video production to make?</span>
-                <span className="home__btn">Contact Us</span>
+                <button className="home__btn">Contact Us</button>
 
                 <div className="row">
                     <div className="col-1-of-2">
@@ -36,6 +36,7 @@ function Home() {
 
                 </div>
 
+                {/* rows with imges and  */}
                 <div className="row__1">
                     <img src="https://thumbs.dreamstime.com/b/professional-male-photographer-digital-photo-camera-photo-studio-isolated-grey-photographer-102998392.jpg" />
                     <div className="col-1-of-2">
@@ -50,7 +51,6 @@ function Home() {
                     </div>
 
                 </div>
-
 
                 <div className="row__1">
                     <div className="col-1-of-2">
@@ -102,9 +102,27 @@ function Home() {
                         <p>2- We will contact you and discuss for the details</p>
                         <p>3-  We will send you a tailor-made quote for free.</p>
                     </div>
-                    <button>Book now</button>
+                    <button className="row__contact__btn">Book now</button>
                 </div>
 
+                <div className="row__1 ">
+                    <img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+                    <div className="col-1-of-2">
+                        <h3>Product Promotion</h3>
+                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                            magnam id fuga cupiditate possimus earum expedita, nostrum
+                            temporibus ab sit, fugit laudantium molestiae minus explicabo
+                            pariatur ea inventore enim excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                            magnam id fuga cupiditate possimus earum expedita, nostrum
+                            temporibus ab sit, fugit laudantium molestiae minus explicabo
+                            pariatur ea inventore enim excepturi?</p>
+                    </div>
+
+                </div>
+                <div className="row__btm">
+                    <h3>Contact us & Book an appointment</h3>
+                    <button>Book now</button>
+                </div>
             </div>
         </div >
 
