@@ -43,6 +43,7 @@
 .header__right > a:hover {
   background-color: #ddd;
   color: black;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
