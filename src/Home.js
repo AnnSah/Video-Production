@@ -78,7 +78,7 @@ function Home() {
                             pariatur ea inventore enim excepturi?</p>
                     </div>
 
-                </div>
+                </div> 
 
                 <div className="row__1">
                     <div className="col-1-of-2">
