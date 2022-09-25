@@ -1,0 +1,108 @@
+.home {
+  background-image: url("https://www.igroovemusic.com/wp-content/uploads/2021/04/best_trend_videos.jpg");
+  height: 380px;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.home__info {
+  margin-bottom: 1.8rem;
+  color: white;
+  display: inline-block;
+  margin-top: 26.25rem;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.home__info > span {
+  color: black;
+  margin-right: 3rem;
+  font-size: 24px;
+  color: #5252c4;
+  font-weight: 500;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.home__btn {
+  border: 1px solid rgb(82, 82, 196);
+  background-color: rgb(255, 255, 255);
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  font-size: 14px;
+}
+
+.home__btn:hover {
+  background-color: #5252c4;
+  color: white;
+  cursor: pointer;
+}
+
+.row {
+  background-color: rgb(253, 252, 252);
+  padding: 10px 10px;
+  max-width: 100%;
+  margin-top: 50px;
+  /* margin-right: 40px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.col-1-of-2 {
+  width: 40%;
+  height: auto;
+  padding: 10px 10px;
+  margin-top: 10px;
+  color: black;
+  font-size: 18px;
+  /* margin-right: 10px; */
+}
+
+.col-1-of-2 > h3 {
+  margin-bottom: 10px;
+  font-weight: 500;
+  margin-right: 80px;
+}
+
+.col-1-of-2 > p {
+  letter-spacing: 0.3px;
+  margin-right: 80px;
+  text-align: left;
+}
+
+.row__icons {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.row__1 {
+  border-bottom: 1px solid rgb(253, 252, 252);
+  padding: 10px 10px;
+  max-width: 100%;
+  margin-top: 80px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.row__1 > p {
+  color: black;
+  width: 40%;
+  text-align: left;
+  margin-top: 100px;
+}
+
+.row__1 > img {
+  width: 30%;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+/* .row__btn{
+  padding:10px
+  margin top:30px */

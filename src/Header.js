@@ -7,7 +7,7 @@ function Header() {
     return (
 
         <div className="header">
-            <a href="#defalut" className="logo">Meroje</a>
+            <a href="#defalut" className="logo">Zeta</a>
 
             <div className="header__right">
                 <a href="#default">Welcome</a>
