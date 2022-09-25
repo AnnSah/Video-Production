@@ -139,7 +139,7 @@ function Home() {
                             temporibus ab sit. </p>
                     </div>
                     <div className="home__card2">
-                        <h2>Our Production</h2>
+                        <h2>Privacy Policy</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
                             magnam id fuga cupiditate possimus earum expedita, nostrum
                             temporibus ab sit, fugit laudantium molestiae minus explicabo
