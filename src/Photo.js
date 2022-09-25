@@ -1,9 +1,9 @@
 import React from 'react'
 
-function AboutUs() {
+function Photo() {
     return (
-        <div>AboutUs</div>
+        <div>Photo</div>
     )
 }
 
-export default AboutUs
+export default Photo;

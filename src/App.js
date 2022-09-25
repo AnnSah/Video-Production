@@ -8,6 +8,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import Photo from './Photo';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
           <Route path="/" exact>
             <Home />
           </Route>
-
+          <Route path="/photo">
+            <Photo />
+          </Route>
         </Switch>
 
 
