@@ -4,10 +4,10 @@ import TheatersIcon from '@mui/icons-material/Theaters';
 import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import AddAPhotoIcon from '@mui/icons-material/AddAPhoto';
 import HdIcon from '@mui/icons-material/Hd';
-import "./Home.css";
-import Footer from './Footer';
+import "./Home.css"
+import Footer from '../Footer/Footer';
 import HomeSection from './HomeSection';
-import PhotoSection from './PhotoSection';
+
 
 
 function Home() {
@@ -65,7 +65,7 @@ function Home() {
                             temporibus ab sit, fugit laudantium molestiae minus explicabo
                             pariatur ea inventore enim excepturi?</p>
                     </div>
-                    <HomeSection src="https://www.coverdrone.com/eu/wp-content/uploads/sites/18/2019/04/AdobeStock_192987059-scaled.jpeg" alt="#" />
+                    <img src="https://www.coverdrone.com/eu/wp-content/uploads/sites/18/2019/04/AdobeStock_192987059-scaled.jpeg" alt="#" />
                 </div>
 
                 <div className="row__1 ">

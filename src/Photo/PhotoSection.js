@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './Footer';
 import "./PhotoSection.css";
 
 function PhotoSection({ title, description, src }) {
@@ -11,6 +10,7 @@ function PhotoSection({ title, description, src }) {
                 <h3>{title}</h3>
                 <p>{description}</p>
             </div>
+
         </div>
 
 
