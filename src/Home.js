@@ -37,7 +37,7 @@ function Home() {
 
                 </div>
 
-                {/* rows with imges and description */}
+                {/* rows with img and description */}
                 <div className="row__1">
                     <img src="https://thumbs.dreamstime.com/b/professional-male-photographer-digital-photo-camera-photo-studio-isolated-grey-photographer-102998392.jpg" />
                     <div className="col-1-of-2">
