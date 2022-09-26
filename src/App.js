@@ -9,6 +9,7 @@ import {
   Link
 } from 'react-router-dom';
 import Photo from './Photo';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/photo">
             <Photo />
           </Route>
+          <Footer />
         </Switch>
 
 
