@@ -4,7 +4,9 @@ import "./Drone.css";
 function Drone() {
     return (
         <div className="drone">
-d
+            <img />
+
+            <div className="drone__info"></div>
         </div>
     )
 }
