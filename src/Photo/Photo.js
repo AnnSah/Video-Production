@@ -12,55 +12,35 @@ function Photo() {
             <PhotoHeadr />
 
             <div className="photo__section">
-                <PhotoSection src="./images/studio.jpg"
-                    title=" Studio Photographer"
-                    description="Unique photographs for your special day"
-                    type1="Reasonable prices"
-                    type2="High quality photos"
-                    button="Learn More" />
-
                 <PhotoSection src="./images/drone.jpg"
                     title=" Drone Photographer"
-                    description="Unique photographs for your special day"
+                    description="Unique Setup Space"
                     type1="Reasonable prices"
                     type2="High quality photos"
                     button="Learn More" />
 
                 <PhotoSection src="./images/wedding.jpg"
                     title=" Wedding Photographer"
-                    description="Unique photographs for your special day"
+                    description="Unique Setup Space"
+                    type1="Reasonable prices"
+                    type2="High quality photos"
+                    button="Learn More" />
+
+                <PhotoSection src="./images/landscape.jpg"
+                    title=" Landscapes Photography"
+                    description="Unique Setup Space"
                     type1="Reasonable prices"
                     type2="High quality photos"
                     button="Learn More" />
 
             </div>
+
+
+
 
             <ContactPromo />
 
-            <div className="photo__section">
-                <PhotoSection src="./images/product.jpg"
-                    title=" Product Promotion "
-                    description="Unique photographs for your special day"
-                    type1="Reasonable prices"
-                    type2="High quality photos"
-                    button="Learn More" />
 
-                <PhotoSection src="./images/bhc.jpg"
-                    title=" Behind the Scenes"
-                    description="Unique photographs for your special day"
-                    type1="Reasonable prices"
-                    type2="High quality photos"
-                    button="Learn More" />
-
-                <PhotoSection src="./images/business.jpg"
-                    title=" Business Photography"
-                    description="Unique photographs for your special day"
-                    type1="Reasonable prices"
-                    type2="High quality photos"
-                    button="Learn More" />
-
-            </div>
-            <PageEnd />
 
         </div>
 

@@ -1,11 +1,12 @@
 .card {
-  margin-top: 13.5%;
+  margin-top: 12%;
   border-radius: 10px;
   margin-bottom: 5.2%;
   overflow: hidden;
   box-shadow: 4px 6px 18px -9px rgba(0, 0, 0, 0.911);
   transition: transform 100ms ease-in;
   cursor: pointer;
+  position: relative;
 }
 
 .card:hover {
@@ -15,10 +16,11 @@
 .card > img {
   object-fit: fill;
   object-fit: cover;
-  min-width: 300px;
-  min-height: 200px;
+  min-width: 100px;
+  min-height: 100px;
   width: 100%;
   border-radius: 5px;
+
   /* padding-top: 20px; */
 }
 
@@ -56,7 +58,7 @@ h3 {
 
 .card__info > button:hover {
   border-bottom: 4px solid rgb(10, 6, 59);
-  /* background-color: rgba(169, 216, 183, 0.336); */
+
   font-weight: 600;
   cursor: pointer;
 }
