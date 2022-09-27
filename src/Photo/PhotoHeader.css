@@ -1,6 +1,6 @@
 .photoHeader {
   background-image: url("https://images.unsplash.com/photo-1563404203912-0b424db17de6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
-  height: 50vh;
+  height: 55vh;
   background-size: cover;
   object-fit: cover;
   background-position: center;
@@ -13,17 +13,18 @@
 .photo__info {
   margin-bottom: 1.8rem;
   color: black;
-  background-color: rgb(236, 235, 235);
+  background-color: rgba(145, 145, 145, 0.26);
   display: flex;
   flex-direction: column;
   align-items: center;
   letter-spacing: 0.2px;
-  margin-top: 29.25rem;
+  margin-top: 19.0rem;
   /* margin-left: 100px; */
 }
 
 .photo__info > h2 {
   margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 30px;
   color: black;
 }
@@ -31,7 +32,7 @@
 .photo__info > p {
   font-size: 20px;
   word-break: break-word;
-  margin: 30px 80px;
+  /* margin: 30px 80px; */
+  margin-left: 30px;
+  margin-bottom: 20px;
 }
-
-

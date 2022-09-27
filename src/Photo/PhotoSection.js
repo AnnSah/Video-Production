@@ -1,15 +1,20 @@
 import React from 'react';
 import "./PhotoSection.css";
 
-function PhotoSection({ title, description, src }) {
+function PhotoSection({ src, title, description, type1, type2, button }) {
     return (
 
-        <div className="card__section">
-            <img src="./images/pexels-jeandaniel-francoeur-2799785.jpg" />
+        <div className="card">
+            <img src={src} />
 
-            <div className="card__details">
-                <h3>Photographer</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut sapien ut felis semper convallis id ut augue. Orci varius natoque</p>
+            <div className="card__info">
+                <h2>{title}</h2>
+                <h4>{description}</h4>
+                <h5>{type1}</h5>
+                <h3>{type2}</h3>
+                <button>{button}</button>
+
+
             </div>
         </div>
 
