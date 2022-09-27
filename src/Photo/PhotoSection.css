@@ -1,5 +1,5 @@
 .card {
-  margin-top: 70px;
+  margin-top: 20%;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 4px 6px 18px -9px rgba(0, 0, 0, 0.911);
@@ -54,7 +54,7 @@ h3 {
 }
 
 .card__info > button:hover {
-  border-bottom: 4px solid rgb(11, 107, 27);
+  border-bottom: 4px solid rgb(10, 6, 59);
   /* background-color: rgba(169, 216, 183, 0.336); */
   font-weight: 600;
   cursor: pointer;

@@ -33,15 +33,22 @@ function Photo() {
             </div>
 
             <div className="photo__section">
-                <PhotoSection src="./images/drone.jpg"
-                    title=" Product Promotion Photo"
+                <PhotoSection src="./images/product.jpg"
+                    title=" Product Promotion "
                     description="Unique photographs for your special day"
                     type1="Reasonable prices"
                     type2="High quality photos"
                     button="Learn More" />
 
-                <PhotoSection src="./images/wedding.jpg"
-                    title=" Wedding Photographer"
+                <PhotoSection src="./images/bhc.jpg"
+                    title=" Behind the Scenes"
+                    description="Unique photographs for your special day"
+                    type1="Reasonable prices"
+                    type2="High quality photos"
+                    button="Learn More" />
+
+                <PhotoSection src="./images/business.jpg"
+                    title=" Business Photography"
                     description="Unique photographs for your special day"
                     type1="Reasonable prices"
                     type2="High quality photos"
