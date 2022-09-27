@@ -3,8 +3,6 @@ import PhotoHeadr from './PhotoHeadr';
 import "./Photo.css";
 import PhotoSection from './PhotoSection';
 import ContactPromo from './ContactPromo';
-import PageEnd from '../PageEnd';
-import Footer from '../Footer/Footer';
 
 function Photo() {
     return (
@@ -34,6 +32,7 @@ function Photo() {
                     button="Learn More" />
 
             </div>
+            
 
 
 

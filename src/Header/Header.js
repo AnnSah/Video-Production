@@ -15,7 +15,7 @@ function Header() {
                 <a href="#default">Contact</a>
                 <a onClick={() => history.push("/photo")}>Photo</a>
                 <a href="#default">Video</a>
-                <a href="#default">Drone</a>
+                <a onClick={() => history.push("/drone")}>Drone</a>
             </div>
 
 

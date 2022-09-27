@@ -5,11 +5,9 @@ import Home from './Home/Home';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
-} from 'react-router-dom';
+  Route} from 'react-router-dom';
 import Photo from './Photo/Photo';
-import Footer from './Footer/Footer';
+import Drone from './Drone/Drone';
 
 
 function App() {
@@ -24,6 +22,10 @@ function App() {
           </Route>
           <Route path="/photo">
             <Photo />
+          </Route>
+
+          <Route path="/drone">
+            <Drone />
           </Route>
 
         </Switch>
