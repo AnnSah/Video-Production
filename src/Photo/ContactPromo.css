@@ -5,6 +5,11 @@
   align-items: center;
   text-shadow: 0.2px 0.2px;
   background-color: rgba(207, 204, 204, 0.288);
+  box-shadow: 6px 6px 18px -9px rgba(0, 0, 0, 0.911);
+}
+
+.photo__contact:hover {
+  transform: translateY(-3px);
 }
 
 .photo__contact > h3 {
@@ -15,4 +20,5 @@
 
 .photo__contact > p {
   font-size: 15px;
+  margin-bottom: 3px;
 }

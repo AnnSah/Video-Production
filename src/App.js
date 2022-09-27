@@ -11,6 +11,7 @@ import {
 import Photo from './Photo/Photo';
 import Footer from './Footer/Footer';
 
+
 function App() {
   return (
     <div>

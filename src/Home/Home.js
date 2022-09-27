@@ -7,6 +7,7 @@ import HdIcon from '@mui/icons-material/Hd';
 import "./Home.css"
 import Footer from '../Footer/Footer';
 import HomeSection from './HomeSection';
+import PageEnd from '../PageEnd';
 
 
 
@@ -131,25 +132,23 @@ function Home() {
                     <button>Book now</button>
                 </div>
 
-                <div className="home__bottom">
-                    <div className="home__card1">
-                        <h2>Zeta Production</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                            magnam id fuga cupiditate possimus earum expedita, nostrum
-                            temporibus ab sit, fugit laudantium molestiae minus explicabo
-                            pariatur ea inventore enim excepturi?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                            magnam id fuga cupiditate possimus earum expedita, nostrum
-                            temporibus ab sit. </p>
-                    </div>
-                    <div className="home__card2">
-                        <h2>Contact</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                            magnam id fuga cupiditate possimus earum expedita, nostrum
-                            temporibus ab sit, fugit laudantium molestiae minus explicabo
-                            pariatur ea inventore enim excepturi?</p>
 
-                    </div>
-                </div>
+
+
+                <PageEnd title="Zeta Production"
+                    description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                magnam id fuga cupiditate possimus earum expedita, nostrum
+                temporibus ab sit, fugit laudantium molestiae minus explicabo
+                pariatur ea inventore enim excepturi?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                magnam id fuga cupiditate possimus earum expedita, nostrum
+                temporibus ab sit."
+                
+                title2="Contact"
+                contact="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                magnam id fuga cupiditate possimus earum expedita, nostrum
+                temporibus ab sit, fugit laudantium molestiae minus explicabo
+                pariatur ea inventore enim excepturi?"/>
+                
             </div>
             <Footer />
         </div >
