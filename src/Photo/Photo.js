@@ -2,6 +2,7 @@ import React from 'react';
 import PhotoHeadr from './PhotoHeadr';
 import "./Photo.css";
 import PhotoSection from './PhotoSection';
+import ContactPromo from './ContactPromo';
 
 function Photo() {
     return (
@@ -31,6 +32,8 @@ function Photo() {
                     button="Learn More" />
 
             </div>
+
+            <ContactPromo />
 
             <div className="photo__section">
                 <PhotoSection src="./images/product.jpg"
