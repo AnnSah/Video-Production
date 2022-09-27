@@ -4,13 +4,13 @@ import "./PhotoSection.css";
 function PhotoSection({ title, description, src }) {
     return (
 
-        <div className="photo__section">
-            <img src={src} />
-            <div className="photo__description">
-                <h3>{title}</h3>
-                <p>{description}</p>
-            </div>
+        <div className="card__section">
+            <img src="./images/pexels-jeandaniel-francoeur-2799785.jpg" />
 
+            <div className="card__details">
+                <h3>Photographer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut sapien ut felis semper convallis id ut augue. Orci varius natoque</p>
+            </div>
         </div>
 
 

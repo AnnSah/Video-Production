@@ -17,6 +17,7 @@ function Home() {
                 <span>A video production to make?</span>
                 <button className="home__btn">Contact Us</button>
 
+
                 <div className="row">
                     <div className="col-1-of-2">
                         <h3>Production</h3>
@@ -31,10 +32,11 @@ function Home() {
                     </div>
 
                     <div className="row__icons">
-                        <p>  <AddAPhotoIcon sx={{ fontSize: 80 }} style={{ minWidth: '70px' }} /> </p>
-                        <p>  <TheatersIcon sx={{ fontSize: 80 }} style={{ minWidth: '70px' }} /></p>
-                        <p> <OndemandVideoIcon sx={{ fontSize: 80 }} style={{ minWidth: '70px' }} /> </p>
-                        <p>  <HdIcon sx={{ fontSize: 80 }} style={{ minWidth: '70px' }} /></p>
+                        <p>  <AddAPhotoIcon sx={{ fontSize: 100 }} style={{ minWidth: '150px' }} /> </p>
+                        <p>  <TheatersIcon sx={{ fontSize: 100 }} style={{ minWidth: '150px' }} /></p>
+                        <p> <OndemandVideoIcon sx={{ fontSize: 100 }} style={{ minWidth: '150px' }} /> </p>
+                        <p>  <HdIcon sx={{ fontSize: 100 }} style={{ minWidth: '150px' }} /></p>
+
                     </div>
 
                 </div>
@@ -140,11 +142,12 @@ function Home() {
                             temporibus ab sit. </p>
                     </div>
                     <div className="home__card2">
-                        <h2>Privacy Policy</h2>
+                        <h2>Contact</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
                             magnam id fuga cupiditate possimus earum expedita, nostrum
                             temporibus ab sit, fugit laudantium molestiae minus explicabo
                             pariatur ea inventore enim excepturi?</p>
+
                     </div>
                 </div>
             </div>

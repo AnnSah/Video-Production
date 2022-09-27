@@ -65,14 +65,15 @@
 
 /* row with images and description */
 .row__1 {
+  /* border-bottom: 1px solid lightgrey; */
   /* border-bottom: 1px solid rgba(211, 211, 211, 0.945); */
-  border-top: 1px solid rgb(253, 252, 252);
+  /* border-top: 1px solid rgb(253, 252, 252); */
   padding: 10px 10px;
   max-width: 100%;
   margin-top: 80px;
   margin-right: 40px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-evenly;
 }
 
