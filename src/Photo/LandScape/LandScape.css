@@ -23,6 +23,26 @@
 
 .landscape__description > h2 {
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 20px;
 }
+
+.landscape__description > button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  width: 30%;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.landscape__description > button:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 1px 1px rgb(121, 119, 119);
+}
+
