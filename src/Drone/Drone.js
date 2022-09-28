@@ -20,17 +20,17 @@ function Drone() {
             <DroneGrid
                 srcFirst="./images/city.jpg"
                 srcSecond="./images/spain.jpg"
-                srcThird=""
-                srcForth=""
-                srcFifth=""
-                srcSixth=""
-                srcSeventh=""
-                srcEigth=""
-                srcNinth=""
-                srcTenth=""
-                srcEleventh=""
-                srcTwelfth=""
-                srcThirteenth="" />
+                srcThird="./images/boats1.jpg"
+                srcForth="./images/sunset.jpg"
+                srcFifth="./images/bridge.jpg"
+                srcSixth="./images/daytime.jpg"
+                srcSeventh="./images/sea.jpg"
+                srcEighth="./images/cars.jpg"
+                srcNinth="./images/island.jpg"
+                srcTenth="./images/cliff.jpg"
+                srcEleventh="./images/park.jpg"
+                srcTwelfth="./images/snow.jpg"
+                srcThirteenth="./images/fields.jpg" />
 
         </div>
     )
