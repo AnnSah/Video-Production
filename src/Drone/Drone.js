@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Drone.css";
+import DroneGrid from './DroneGrid';
 
 function Drone() {
     return (
@@ -16,14 +17,17 @@ function Drone() {
                 </div>
             </div>
 
-            
-            <div className="image__grid">
-                <img className="img-grid-col-1 img-grid-row-3 " src="./images/chef.jpg" alt="cheff" />
-                <img  className="img-grid-col-1 img-grid-row-2"src="./images/chef.jpg" alt="cheff" />
-                <img  className="img-grid-col-2" src="./images/chef.jpg" alt="cheff" />
-                <img src="./images/chef.jpg" alt="cheff" />
-                <img src="./images/chef.jpg" alt="cheff" />
-            </div>
+            <DroneGrid />
+            {/* <div className="image__grid">
+                <img src="./images/chef.jpg" alt="chef" />
+                <img className="img-grid-col-1 img-grid-row-3 " src="./images/chef.jpg" alt="chef" />
+                <img className="img-grid-col-1 img-grid-row-2" src="./images/chef.jpg" alt="chef" />
+                <img className="img-grid-col-2" src="./images/chef.jpg" alt="chef" />
+                <img className="img-grid-col-1" src="./images/chef.jpg" alt="chef" />
+                <img src="./images/chef.jpg" alt="chef" />
+                <img src="./images/chef.jpg" alt="chef" />
+                <img src="./images/chef.jpg" alt="chef" />
+            </div> */}
         </div>
     )
 }
