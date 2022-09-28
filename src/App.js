@@ -10,6 +10,7 @@ import {
 import Photo from './Photo/Photo';
 import Drone from './Drone/Drone';
 import LifeStyle from './Photo/Lifestyle/LifeStyle';
+import LandScape from './Photo/LandScape/LandScape';
 
 
 function App() {
@@ -32,6 +33,10 @@ function App() {
 
           <Route path="/lifestyle">
             <LifeStyle />
+          </Route>
+
+          <Route path="/landscape">
+            <LandScape />
           </Route>
 
         </Switch>

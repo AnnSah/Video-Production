@@ -1,7 +1,8 @@
 import React from 'react';
 import PhotoHeadr from './PhotoHeadr';
 import "./Photo.css";
-import PhotoSection from './PhotoSection';
+import "./PhotoSection.css"
+
 import { Link, useHistory } from 'react-router-dom';
 
 function Photo() {
@@ -43,7 +44,7 @@ function Photo() {
                         <h4>Unique SetUp Space</h4>
                         <h5>Reasonable Prices</h5>
                         <h3>High Quality Photos</h3>
-                        <button onClick={() => history.push("/drone")}>Learn more</button>
+                        <button onClick={() => history.push("/landscape")}>Learn more</button>
 
 
                     </div>

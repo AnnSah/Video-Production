@@ -1,0 +1,28 @@
+.landscape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.landscape__description {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.landscape__description > h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.landscape__description > p {
+  width: 700px;
+  font-weight: 400;
+}
+
+.landscape__description > h2 {
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 20px;
+}

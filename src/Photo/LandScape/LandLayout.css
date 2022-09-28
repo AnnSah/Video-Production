@@ -1,0 +1,31 @@
+.land__layout {
+  --gap: 16px;
+  --num-cols: 3;
+  --row-height: 300px;
+
+  margin: 10%;
+  padding: 10px;
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-template-rows: var(--row-height);
+  gap: var(--gap);
+}
+
+.land__layout > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.land-grid-col-1 {
+  grid-column: span 1;
+}
+.land-grid-row-2 {
+  grid-row: span 2;
+}
+
+.land-grid-col-2 {
+  grid-column: span2;
+}

@@ -11,7 +11,7 @@ function LifeStyle() {
                 <div className="lifestyle__description">
                     <h3>Lifestyle & Business Photographer</h3>
                     <p>Lifestyle & Business photography is a style of portrait photography that aims to capture real-life situations in an artistic manner. The purpose of this type of photography is to share people's stories through candid, unstaged scenes.</p>
-                    <h2>Contact us & Book an appointment</h2>
+                    <h2>Do you have photo project ?</h2>
                     <button>Book now</button>
                 </div>
 
