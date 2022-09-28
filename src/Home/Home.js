@@ -58,46 +58,45 @@ function Home() {
                 </div>
 
                 <div className="row__1">
-                    <div className="col-1-of-2">
-                        <h3>Drone</h3>
-                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                            magnam id fuga cupiditate possimus earum expedita, nostrum
-                            temporibus ab sit, fugit laudantium molestiae minus explicabo
-                            pariatur ea inventore enim excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                            magnam id fuga cupiditate possimus earum expedita, nostrum
-                            temporibus ab sit, fugit laudantium molestiae minus explicabo
-                            pariatur ea inventore enim excepturi?</p>
-                    </div>
-                    <img src="https://www.coverdrone.com/eu/wp-content/uploads/sites/18/2019/04/AdobeStock_192987059-scaled.jpeg" alt="#" />
+                    <HomeSection title="Drone"
+                        description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                        magnam id fuga cupiditate possimus earum expedita, nostrum
+                        temporibus ab sit, fugit laudantium molestiae minus explicabo
+                        pariatur ea inventore enim excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                        magnam id fuga cupiditate possimus earum expedita, nostrum
+                        temporibus ab sit, fugit laudantium molestiae minus explicabo
+                        pariatur ea inventore enim excepturi?"
+                        src="https://www.coverdrone.com/eu/wp-content/uploads/sites/18/2019/04/AdobeStock_192987059-scaled.jpeg" />
+
+
                 </div>
 
                 <div className="row__1 ">
-                    <img src="https://www.linandjirsa.com/wp-content/uploads/010-galway-downs-temecula-wedding-photography-1000x667.jpg" alt="#" />
-                    <div className="col-1-of-2">
-                        <h3>Wedding</h3>
-                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                            magnam id fuga cupiditate possimus earum expedita, nostrum
-                            temporibus ab sit, fugit laudantium molestiae minus explicabo
-                            pariatur ea inventore enim excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                            magnam id fuga cupiditate possimus earum expedita, nostrum
-                            temporibus ab sit, fugit laudantium molestiae minus explicabo
-                            pariatur ea inventore enim excepturi?</p>
-                    </div>
+                    <HomeSection
+                        src="https://www.linandjirsa.com/wp-content/uploads/010-galway-downs-temecula-wedding-photography-1000x667.jpg"
+                        title="Wedding"
+                        description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                    magnam id fuga cupiditate possimus earum expedita, nostrum
+                    temporibus ab sit, fugit laudantium molestiae minus explicabo
+                    pariatur ea inventore enim excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                    magnam id fuga cupiditate possimus earum expedita, nostrum
+                    temporibus ab sit, fugit laudantium molestiae minus explicabo
+                    pariatur ea inventore enim excepturi?" />
 
                 </div>
 
                 <div className="row__1">
-                    <div className="col-1-of-2">
-                        <h3>Music Video</h3>
-                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                            magnam id fuga cupiditate possimus earum expedita, nostrum
-                            temporibus ab sit, fugit laudantium molestiae minus explicabo
-                            pariatur ea inventore enim excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                            magnam id fuga cupiditate possimus earum expedita, nostrum
-                            temporibus ab sit, fugit laudantium molestiae minus explicabo
-                            pariatur ea inventore enim excepturi?</p>
-                    </div>
-                    <img src="https://images.unsplash.com/photo-1570459725240-9c1f1532f78b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="#" />
+                    <HomeSection
+                        src="https://images.unsplash.com/photo-1570459725240-9c1f1532f78b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        title="Music Video"
+                        description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                    magnam id fuga cupiditate possimus earum expedita, nostrum
+                    temporibus ab sit, fugit laudantium molestiae minus explicabo
+                    pariatur ea inventore enim excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                    magnam id fuga cupiditate possimus earum expedita, nostrum
+                    temporibus ab sit, fugit laudantium molestiae minus explicabo
+                    pariatur ea inventore enim excepturi?"/>
+
                 </div>
 
                 {/* contact info */}
@@ -112,17 +111,17 @@ function Home() {
                 </div>
 
                 <div className="row__1 ">
-                    <img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="#" />
-                    <div className="col-1-of-2">
-                        <h3>Product Promotion</h3>
-                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                            magnam id fuga cupiditate possimus earum expedita, nostrum
-                            temporibus ab sit, fugit laudantium molestiae minus explicabo
-                            pariatur ea inventore enim excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                            magnam id fuga cupiditate possimus earum expedita, nostrum
-                            temporibus ab sit, fugit laudantium molestiae minus explicabo
-                            pariatur ea inventore enim excepturi?</p>
-                    </div>
+
+                    <HomeSection
+                        src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        title="Product Promotion"
+                        description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                    magnam id fuga cupiditate possimus earum expedita, nostrum
+                    temporibus ab sit, fugit laudantium molestiae minus explicabo
+                    pariatur ea inventore enim excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                    magnam id fuga cupiditate possimus earum expedita, nostrum
+                    temporibus ab sit, fugit laudantium molestiae minus explicabo
+                    pariatur ea inventore enim excepturi?"/>
 
                 </div>
 
@@ -132,9 +131,6 @@ function Home() {
                     <button>Book now</button>
                 </div>
 
-
-
-
                 <PageEnd title="Zeta Production"
                     description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
                 magnam id fuga cupiditate possimus earum expedita, nostrum
@@ -142,13 +138,13 @@ function Home() {
                 pariatur ea inventore enim excepturi?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
                 magnam id fuga cupiditate possimus earum expedita, nostrum
                 temporibus ab sit."
-                
-                title2="Contact"
-                contact="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+
+                    title2="Contact"
+                    contact="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
                 magnam id fuga cupiditate possimus earum expedita, nostrum
                 temporibus ab sit, fugit laudantium molestiae minus explicabo
                 pariatur ea inventore enim excepturi?"/>
-                
+
             </div>
             <Footer />
         </div >
