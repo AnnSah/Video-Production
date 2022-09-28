@@ -1,1 +1,108 @@
+.drone {
+  background-image: url("https://media.cntraveler.com/photos/598202a9d8b70e58cdb15f07/16:9/w_2580,c_limit/Arc-de-Triomphe-GettyImages-186543860.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
 
+.drone__info {
+  margin-top: 25.5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drone__info > span {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.drone__info > button {
+  width: 8%;
+  margin-left: 40px;
+  border-radius: 3px;
+  padding: 10px;
+  border: 2px solid black;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: white;
+}
+
+.drone__info > button:hover {
+  background-color: black;
+  color: white;
+}
+
+.drone__description {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+
+.drone__description > img {
+  width: 50%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.drone__description > p {
+  /* white-space: nowrap; */
+  width: 700px;
+  margin-top: 70px;
+  letter-spacing: 0.2px;
+  /* border: 1px solid #000000; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 50px;
+}
+
+/* img grid */
+/* .image__grid {
+  --gap: 16px;
+  --num--cols: 3;
+  --row--height: 200px;
+
+  margin-top: 8%;
+  box-sizing: border-box;
+
+  padding: var(--gap);
+
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(var(--num--cols), 1fr);
+  grid-auto-rows: var(--row--height);
+  gap: var(--gap);
+}
+
+.image__grid > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-grid-col-1 {
+  grid-column: span 1;
+}
+
+.img-grid-row-3 {
+  grid-row: span 3;
+}
+
+.img-grid-col-2 {
+  grid-column: span 2;
+}
+
+.img-grid-row-2 {
+  grid-row: span 3;
+}
+
+@media screen and (max-width: 1024px) {
+  .image__grid {
+    --num-cols: 2;
+    --row--height: 200px;
+  }
+} */
