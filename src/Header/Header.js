@@ -13,7 +13,7 @@ function Header() {
             <div className="header__right">
                 <a onClick={() => history.push("/")}>Home</a>
                 <a href="#default">Contact</a>
-                <a onClick={() => history.push("/photo")}>Photo</a>
+                <a className="photo" onClick={() => history.push("/photo")}>Photo</a>
                 <a href="#default">Video</a>
                 <a onClick={() => history.push("/drone")}>Drone</a>
             </div>

@@ -2,48 +2,56 @@ import React from 'react';
 import PhotoHeadr from './PhotoHeadr';
 import "./Photo.css";
 import PhotoSection from './PhotoSection';
-import ContactPromo from './ContactPromo';
-import DroneGrid from '../Drone/DroneGrid';
+import { Link, useHistory } from 'react-router-dom';
 
 function Photo() {
+    const history = useHistory();
     return (
         <div className="photo">
             <PhotoHeadr />
 
             <div className="photo__section">
-                <PhotoSection src="./images/drone.jpg"
-                    title=" Drone Photographer"
-                    description="Unique Setup Space"
-                    type1="Reasonable prices"
-                    type2="High quality photos"
-                    button="Learn More" />
+                <div className="card">
+                    <img src="./images/drone.jpg" alt="." />
+                    <div className="card__info">
+                        <h2>Drone Photographer</h2>
+                        <h4>Unique SetUp Space</h4>
+                        <h5>Reasonable Prices</h5>
+                        <h3>High Quality Photos</h3>
+                        <button onClick={() => history.push("/drone")}>Learn more</button>
 
-                <PhotoSection src="./images/wedding.jpg"
-                    title=" Wedding Photographer"
-                    description="Unique Setup Space"
-                    type1="Reasonable prices"
-                    type2="High quality photos"
-                    button="Learn More" />
 
-                <PhotoSection src="./images/landscape.jpg"
-                    title=" Landscapes Photography"
-                    description="Unique Setup Space"
-                    type1="Reasonable prices"
-                    type2="High quality photos"
-                    button="Learn More" />
+                    </div>
+                </div>
+
+                <div className="card">
+                    <img src="./images/lifestyle.jpg" alt="." />
+                    <div className="card__info">
+                        <h2>Lifestyle Photographer</h2>
+                        <h4>Unique SetUp Space</h4>
+                        <h5>Reasonable Prices</h5>
+                        <h3>High Quality Photos</h3>
+                        <button onClick={() => history.push("/lifestyle")}>Learn more</button>
+
+
+                    </div>
+                </div>
+                <div className="card">
+                    <img src="./images/landscape.jpg" alt="." />
+                    <div className="card__info">
+                        <h2>Landscape Photographer</h2>
+                        <h4>Unique SetUp Space</h4>
+                        <h5>Reasonable Prices</h5>
+                        <h3>High Quality Photos</h3>
+                        <button onClick={() => history.push("/drone")}>Learn more</button>
+
+
+                    </div>
+                </div>
 
             </div>
 
 
-
-
-
-            <ContactPromo />
-
-
-            <DroneGrid />
-            <h2>Wedding Photography</h2>
-            <DroneGrid />
         </div>
 
     )

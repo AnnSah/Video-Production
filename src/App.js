@@ -5,9 +5,11 @@ import Home from './Home/Home';
 import {
   BrowserRouter as Router,
   Switch,
-  Route} from 'react-router-dom';
+  Route
+} from 'react-router-dom';
 import Photo from './Photo/Photo';
 import Drone from './Drone/Drone';
+import LifeStyle from './Photo/Lifestyle/LifeStyle';
 
 
 function App() {
@@ -26,6 +28,10 @@ function App() {
 
           <Route path="/drone">
             <Drone />
+          </Route>
+
+          <Route path="/lifestyle">
+            <LifeStyle />
           </Route>
 
         </Switch>

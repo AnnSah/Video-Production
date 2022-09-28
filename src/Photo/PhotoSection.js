@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import "./PhotoSection.css";
 
 function PhotoSection({ src, title, description, type1, type2, button }) {

@@ -1,10 +1,11 @@
 .image__grid {
   --gap: 20px;
   --num--cols: 4;
-  --row--height: 200px;
+  --row--height: 300px;
 
   margin-top: 10%;
   box-sizing: border-box;
+  border: none;
 
   padding: var(--gap);
 
@@ -37,7 +38,6 @@
   grid-row: span 1;
 }
 
-/* 3rd img */
 
 @media screen and (max-width: 1024px) {
   .image__grid {
