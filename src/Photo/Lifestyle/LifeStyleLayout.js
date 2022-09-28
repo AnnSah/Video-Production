@@ -4,18 +4,18 @@ import "./LifeStyleLayout.css";
 function LifeStyleLayout() {
   return (
     <div className="grid__layout">
-      <img className="layout-grid-col-1 layout-grid-row-2" src="./images/cliff.jpg" alt="spain" />
-      <img className="layout-grid-col-2" src="./images/cliff.jpg" alt="cliff" />
-      <img src="./images/cliff.jpg" alt="cliff" />
-      <img className="layout-grid-col-1 layout-grid-row-2" src="./images/cliff.jpg" alt="cliff" />
-      <img src="./images/cliff.jpg" alt="cliff" />
-      <img className="layout-grid-col-1 layout-grid-row-2" src="./images/cliff.jpg" alt="cliff" />
-      <img className="layout-grid-col-1 layout-grid-row-2" src="./images/cliff.jpg" alt="cliff" />
-      <img className="layout-grid-col-1 layout-grid-row-2" src="./images/cliff.jpg" alt="cliff" />
-      <img className="layout-grid-col-1 layout-grid-row-2" src="./images/cliff.jpg" alt="cliff" />
-      <img className="layout-grid-col-1 layout-grid-row-2" src="./images/chef.jpg" alt="cliff" />
-      <img src="./images/cliff.jpg" alt="cliff" />
-      <img src="./images/cliff.jpg" alt="cliff" />
+      <img className="layout-grid-col-1 layout-grid-row-2" src="./sub-images/shoes.jpg" alt="shoes" />
+      <img className="layout-grid-col-2" src="./sub-images/barbershop.jpg" alt="barbershop" />
+      <img src="./sub-images/furniture.jpg" alt="cliff" />
+      <img className="layout-grid-col-1 layout-grid-row-2" src="./sub-images/fishing.jpg" alt="fishing" />
+      <img src="./sub-images/birthday.jpg" alt="birthday" />
+      <img className="layout-grid-col-1 layout-grid-row-2" src="./sub-images/videoshoot.jpg" alt="videoshoot" />
+      <img className="layout-grid-col-1 layout-grid-row-2" src="./sub-images/watch.jpg" alt="watch" />
+      <img className="layout-grid-col-1 layout-grid-row-2" src="./sub-images/food.jpg" alt="food" />
+      <img className="layout-grid-col-1 layout-grid-row-2" src="./sub-images/red.jpg" alt="model in red background" />
+      <img className="layout-grid-col-1 layout-grid-row-2" src="./sub-images/store.jpg" alt="clothing store" />
+      <img src="./sub-images/beautysalon.jpg" alt="beautysalon" />
+      <img src="./sub-images/market.jpg" alt="market" />
 
 
     </div>
