@@ -126,10 +126,10 @@ function Home() {
                 </div>
 
                 {/* contact info */}
-                <div className="row__btm">
+                {/* <div className="row__btm">
                     <h3>Contact us & Book an appointment</h3>
                     <button>Book now</button>
-                </div>
+                </div> */}
 
                 <PageEnd title="Zeta Production"
                     description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum

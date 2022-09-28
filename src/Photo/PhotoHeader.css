@@ -32,7 +32,7 @@
 
 .photo__info > p {
   font-size: 20px;
-  word-break: break-word;
+  width: 1000px;
   /* margin: 30px 80px; */
   margin-left: 30px;
   margin-bottom: 20px;
