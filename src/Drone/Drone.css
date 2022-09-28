@@ -65,7 +65,10 @@
   --num--cols: 3;
   --row--height: 200px;
 
-  margin-top: 8%;
+  /* margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%; */
+  margin:10%;
   box-sizing: border-box;
 
   padding: var(--gap);
@@ -82,21 +85,22 @@
   height: 100%;
   object-fit: cover;
 }
-
+/* 1st img */
 .img-grid-col-1 {
-  grid-column: span 1;
+  grid-column: span 0;
 }
 
 .img-grid-row-3 {
   grid-row: span 3;
 }
 
-.img-grid-col-2 {
-  grid-column: span 2;
+/* 2nd img */
+.img-grid-col-1 {
+  grid-column: span 1;
 }
 
 .img-grid-row-2 {
-  grid-row: span 3;
+  grid-row: span 2;
 }
 
 @media screen and (max-width: 1024px) {
