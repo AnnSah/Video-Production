@@ -18,3 +18,8 @@ function PageEnd() {
 }
 
 export default PageEnd;
+
+// const showMessage,setShowMessage= useState("false")
+// const showMessageHandler ()=>{setShowMessage(!showMessage);}
+// <button onClick={showMessageHandler}>{showMessage ? "Hide" : "Show"}Message <button/>
+

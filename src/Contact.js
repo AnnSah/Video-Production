@@ -1,27 +1,38 @@
 import React from 'react';
 import "./Contact.css";
+import "@mui/icons-material";
+import Fade from "react-reveal/Fade";
 
 function Contact() {
     return (
+
         <div className="form-container">
-            <h2>Contact Us</h2>
-            <form className="form__register">
-                <input className="form-field"
-                    placeholder="Name"
-                    name="Name" />
+            <Fade left>
+                <div className="contact__title">
+                    <h2>Contact Us</h2>
+                    <p>For any request, don't hesitate to contact us.</p>
+                </div>
+                <form className="form__register">
+                    <input className="form-field"
+                        placeholder="Name"
+                        name="Name" />
 
-                <input className="form-field"
-                    placeholder="Email"
-                    name="Email" />
+                    <input className="form-field"
+                        placeholder="Email"
+                        name="Email" />
 
-                <input className="form-field"
-                    placeholder="Object"
-                    name="Name" />
-                <textarea className="form-field"
-                    placeholder="Message"
-                    name="Message" />
-            </form>
+                    <input className="form-field"
+                        placeholder="Object"
+                        name="Name" />
+                    <textarea className="form-field"
+                        placeholder="Message"
+                        name="Message" />
+
+                </form>
+            </Fade>
+
         </div>
+
     )
 }
 

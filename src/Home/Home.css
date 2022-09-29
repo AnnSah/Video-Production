@@ -63,7 +63,7 @@
 .row__1 {
   padding: 10px 10px;
   max-width: 100%;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-right: 40px;
   display: flex;
   flex-direction: row;
@@ -72,9 +72,9 @@
 
 .row__1 > p {
   color: black;
-  width: 40%;
+  width: 20%;
   text-align: left;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .row__1 > img {
