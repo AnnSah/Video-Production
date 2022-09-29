@@ -1,0 +1,25 @@
+.form-container {
+  background-color: rgb(255, 255, 255);
+}
+
+.form__register {
+  flex-direction: column;
+  display: flex;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.form-field {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 30px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 0.2px solid rgb(197, 197, 197);
+}
+
+.form-field> textarea{
+    width: 50%;
+}
+
+
