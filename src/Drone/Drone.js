@@ -1,25 +1,24 @@
 import React from 'react';
 import "./Drone.css";
 import DroneGrid from './DroneGrid';
-import PageEnd from '../PageEnd';
-import { Link, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import PageEnd from "../PageEnd";
 
 function Drone() {
-    const history = useHistory();
     return (
         <div className="drone">
-            <img src="./images/drone1.jpg" />
             <div className="drone__info">
-                <h3>Drone Photographer</h3>
-                <p>Drone photographers control a drone or other unmanned aerial vehicle that is equipped with a camera and take pictures for their employer. </p>
-                <h3>Contact Us or Email-Us</h3>
-                <Link className="link" to="/contact">
-                    <button>Contact now</button>
-                </Link>
-
+                <div className="drone__description">
+                    <img src="./images/drone.jpg" />
+                    <p>Drone photographers control a drone or other unmanned aerial vehicle that is equipped with a camera and take pictures for their employer. You find drone photographers in a variety of industries, including real estate, TV and film, construction, GIS and surveying, events photography, and law enforcement.</p>
+                </div>
+            </div>
+            <div className="drone__contact">
+                <h2>Tell us about your next idea.</h2>
+                <Link className="btn" to="#"> <button>Contact Us</button></Link>
             </div>
 
-            {/* <DroneGrid
+            <DroneGrid
                 srcFirst="./images/city.jpg"
                 srcSecond="./images/spain.jpg"
                 srcThird="./images/boats1.jpg"
@@ -32,10 +31,10 @@ function Drone() {
                 srcTenth="./images/cliff.jpg"
                 srcEleventh="./images/park.jpg"
                 srcTwelfth="./images/snow.jpg"
-                srcThirteenth="./images/fields.jpg" /> */}
+                srcThirteenth="./images/fields.jpg" />
 
 
-            {/* <PageEnd /> */}
+            <PageEnd />
         </div>
 
     )

@@ -20,7 +20,7 @@ function Home() {
             <Fade left>
                 <div className="home__info ">
                     <span>A video production to make?</span>
-                    <button  className="home__btn">Contact Us</button>
+                    <button className="home__btn">Contact Us</button>
 
 
                     <div className="row">
@@ -128,27 +128,12 @@ function Home() {
                     pariatur ea inventore enim excepturi?"/>
 
                     </div>
-
                     {/* contact info */}
                     {/* <div className="row__btm">
                     <h3>Contact us & Book an appointment</h3>
                     <button>Book now</button>
                 </div> */}
-
-                    <PageEnd title="Zeta Production"
-                        description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                magnam id fuga cupiditate possimus earum expedita, nostrum
-                temporibus ab sit, fugit laudantium molestiae minus explicabo
-                pariatur ea inventore enim excepturi?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                magnam id fuga cupiditate possimus earum expedita, nostrum
-                temporibus ab sit."
-
-                        title2="Contact"
-                        contact="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                magnam id fuga cupiditate possimus earum expedita, nostrum
-                temporibus ab sit, fugit laudantium molestiae minus explicabo
-                pariatur ea inventore enim excepturi?"/>
-
+                    <PageEnd />
                 </div>
             </Fade>
             <Footer />

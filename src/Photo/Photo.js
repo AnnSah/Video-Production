@@ -2,12 +2,11 @@ import React from 'react';
 import PhotoHeadr from './PhotoHeadr';
 import "./Photo.css";
 import "./PhotoSection.css"
-
-import { Link, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import PageEnd from '../PageEnd';
 
 function Photo() {
-    const history = useHistory();
+
     return (
         <div className="photo">
             <PhotoHeadr />

@@ -27,7 +27,7 @@
   margin-top: 20px;
 }
 
-.landscape__description > button {
+.link__lds > button {
   margin-top: 20px;
   padding: 10px 10px;
   width: 30%;
@@ -40,9 +40,8 @@
   cursor: pointer;
 }
 
-.landscape__description > button:hover {
+.link__lds > button:hover {
   background-color: black;
   color: white;
   box-shadow: 1px 1px rgb(121, 119, 119);
 }
-

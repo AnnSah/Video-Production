@@ -12,6 +12,7 @@ import Drone from './Drone/Drone';
 import LifeStyle from './Photo/Lifestyle/LifeStyle';
 import LandScape from './Photo/LandScape/LandScape';
 import Contact from './Contact';
+import Video from './Video/Video';
 
 
 function App() {
@@ -42,6 +43,10 @@ function App() {
 
           <Route path="/contact">
             <Contact />
+          </Route>
+
+          <Route path="/video">
+            <Video />
           </Route>
 
         </Switch>
