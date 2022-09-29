@@ -7,16 +7,16 @@
 }
 
 .form__register {
-  background: #abbaab; /* fallback for old browsers */
+  background: #757f9a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to bottom,
-    #ffffff,
-    #ebebeb
+    to left,
+    #d7dde8,
+    #757f9a
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to bottom,
-    #e9e9e9,
-    #e7e7e7
+    to left,
+    #d7dde8,
+    #9397a1
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   flex-direction: column;
   display: flex;
@@ -24,6 +24,22 @@
   margin: 5% 20%;
   border-radius: 50px;
   padding: 20px;
+}
+
+.form__register > button {
+  padding: 13px;
+  width: 30%;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+.form__register > button:hover {
+  background-color: #bcc1ce;
+  transform: translateY(-3px);
+  box-shadow: 1px 1px #bcc1ce;
 }
 
 .contact__title {
@@ -50,4 +66,8 @@
   box-sizing: border-box;
   border-radius: 5px;
   border: 0.2px solid rgb(197, 197, 197);
+}
+
+.form-field:focus {
+  border-color: rgb(197, 197, 197);
 }

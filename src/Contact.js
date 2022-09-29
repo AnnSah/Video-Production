@@ -2,6 +2,7 @@ import React from 'react';
 import "./Contact.css";
 import "@mui/icons-material";
 import Fade from "react-reveal/Fade";
+import PageEnd from './PageEnd';
 
 function Contact() {
     return (
@@ -27,10 +28,10 @@ function Contact() {
                     <textarea className="form-field"
                         placeholder="Message"
                         name="Message" />
-
+                    <button>Submit</button>
                 </form>
             </Fade>
-
+            <PageEnd />
         </div>
 
     )

@@ -4,6 +4,7 @@ import "./Photo.css";
 import "./PhotoSection.css"
 
 import { Link, useHistory } from 'react-router-dom';
+import PageEnd from '../PageEnd';
 
 function Photo() {
     const history = useHistory();
@@ -19,7 +20,7 @@ function Photo() {
                         <h4>Unique SetUp Space</h4>
                         <h5>Reasonable Prices</h5>
                         <h3>High Quality Photos</h3>
-                        <button onClick={() => history.push("/drone")}>Learn more</button>
+                        <Link to={"/drone"} className="link__button"><button>Learn more</button></Link>
 
 
                     </div>
@@ -32,7 +33,7 @@ function Photo() {
                         <h4>Unique SetUp Space</h4>
                         <h5>Reasonable Prices</h5>
                         <h3>High Quality Photos</h3>
-                        <button onClick={() => history.push("/lifestyle")}>Learn more</button>
+                        <Link to={"/lifestyle"} className="link__button"><button>Learn more</button></Link>
 
 
                     </div>
@@ -44,7 +45,7 @@ function Photo() {
                         <h4>Unique SetUp Space</h4>
                         <h5>Reasonable Prices</h5>
                         <h3>High Quality Photos</h3>
-                        <button onClick={() => history.push("/landscape")}>Learn more</button>
+                        <Link to={"/landscape"} className="link__button"><button>Learn more</button></Link>
 
 
                     </div>
@@ -52,7 +53,7 @@ function Photo() {
 
             </div>
 
-
+            <PageEnd />
         </div>
 
     )
