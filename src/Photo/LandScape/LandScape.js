@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import PageEnd from '../../PageEnd';
 import LandLayout from './LandLayout';
 import "./LandScape.css";
 
 function LandScape() {
-    const history = useHistory();
+
     return (
         <>
             <div className="landscape">

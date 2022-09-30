@@ -1,0 +1,15 @@
+.video__player {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+}
+
+.video__palyer > p {
+  display: flex;
+  flex-direction: column;
+}
+
+.video__1 {
+  /* display: flex;
+  margin-top: 10%; */
+}

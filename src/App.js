@@ -48,7 +48,7 @@ function App() {
           <Route path="/video">
             <Video />
           </Route>
-
+ 
         </Switch>
 
       </Router>

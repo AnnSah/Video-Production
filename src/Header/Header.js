@@ -14,7 +14,7 @@ function Header() {
                 <a onClick={() => history.push("/")}>Home</a>
                 <a onClick={() => history.push("/contact")}>Contact</a>
                 <a className="photo" onClick={() => history.push("/photo")}>Photo</a>
-                <a href="#default">Video</a>
+                <a onClick={() => history.push("/video")}>Video</a>
                 <a onClick={() => history.push("/drone")}>Drone</a>
             </div>
 
