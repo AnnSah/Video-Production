@@ -11,8 +11,10 @@ function Video() {
                 <h1>Audiovisual Production</h1>
             </div>
 
-
             <GridVideo />
+            <div className="video__description_2">
+                <h2>Our Video Production</h2>
+            </div>
         </div>
 
 

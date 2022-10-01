@@ -39,10 +39,15 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
   .photo__info {
-    margin-bottom: 10%;
-    color: red;
-    margin-top: 20%;
+    margin-bottom: 50px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .photo__info > h2 {
+    margin-bottom: 5px;
   }
 }

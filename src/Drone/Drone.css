@@ -107,9 +107,8 @@
   grid-row: span 2;
 }
 
-@media screen and (min-width: 324px) {
+@media (max-width: 500px) {
   .image__grid {
-    --num-cols: 2;
-    --row--height: 200px;
+    --num--cols: 1;
   }
 }

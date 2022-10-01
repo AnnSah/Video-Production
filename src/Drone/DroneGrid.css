@@ -1,6 +1,6 @@
 .image__grid {
   --gap: 20px;
-  --num--cols: 4;
+  --num--cols: 3;
   --row--height: 300px;
 
   margin-top: 5%;
@@ -38,10 +38,8 @@
   grid-row: span 1;
 }
 
-
-@media screen and (max-width: 1024px) {
+@media (max-width: 500px) {
   .image__grid {
-    --num-cols: 2;
-    --row--height: 200px;
+    --num--cols: 1;
   }
 }

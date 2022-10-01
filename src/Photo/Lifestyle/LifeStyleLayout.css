@@ -38,3 +38,10 @@
 .layout-grid-col-2 {
   grid-column: span 2;
 }
+
+@media (max-width: 500px) {
+  .grid__layout {
+    --num-cols: 1;
+    margin-top: 10px;
+  }
+}

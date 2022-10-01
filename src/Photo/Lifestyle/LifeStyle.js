@@ -12,7 +12,7 @@ function LifeStyle() {
                 <img src="./sub-images/lifestyle1.jpg" alt="lifestyle" />
                 <div className="lifestyle__description">
                     <h3>Lifestyle & Business Photographer</h3>
-                    <p>Lifestyle & Business photography is a style of portrait photography that aims to capture real-life situations in an artistic manner. The purpose of this type of photography is to share people's stories through candid, unstaged scenes.</p>
+                    <p>Lifestyle & Business photography is a style <br></br> of portrait photography that aims to capture<br></br> real-life situations in an artistic manner.</p>
                     <h2>Do you have a photo project ?</h2>
                     <Link to={"/contact"} className="link"> <button>Contact Us</button></Link>
                 </div>

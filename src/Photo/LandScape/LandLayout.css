@@ -29,3 +29,9 @@
 .land-grid-col-2 {
   grid-column: span2;
 }
+
+@media (max-width: 500px) {
+  .land__layout {
+    --num-cols: 1;
+  }
+}
