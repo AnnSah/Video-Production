@@ -27,7 +27,8 @@
   margin-bottom: 20px;
   font-size: 30px;
   font-weight: 500;
-  color: black;
+  text-transform: uppercase;
+  color: rgb(80, 80, 80);
 }
 
 .photo__info > p {
@@ -36,4 +37,12 @@
   /* margin: 30px 80px; */
   margin-left: 30px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .photo__info {
+    margin-bottom: 10%;
+    color: red;
+    margin-top: 20%;
+  }
 }

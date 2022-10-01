@@ -9,3 +9,11 @@
   font-size: 40px;
   margin-top: 10px;
 }
+
+@media (max-width: 650px) {
+  .photo__section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 14%;
+  }
+}

@@ -1,0 +1,38 @@
+.video__grid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.video__info > h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.video__contact {
+  padding: 10px;
+  background-color: rgb(247, 244, 244);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+}
+
+.video__contact > h2 {
+  font-size: 28px;
+  margin-right: 20px;
+  font-weight: 600;
+  color: rgb(71, 71, 71);
+}
+
+.video__contact > button {
+  width: 150px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 4px;
+  border: 0.2px solid black;
+  color: black;
+  font-weight: 600;
+  background-color: white;
+}
