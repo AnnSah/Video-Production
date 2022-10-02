@@ -6,7 +6,11 @@
 }
 
 .drone__info {
-  margin-top: 2%;
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hong-kong-china-1529607809.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -15,7 +19,7 @@
 
 .drone__description {
   display: flex;
-
+  flex-direction: row;
   margin-left: 20px;
   margin-top: 80px;
 }

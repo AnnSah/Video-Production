@@ -8,8 +8,8 @@ function Drone() {
     return (
         <div className="drone">
             <div className="drone__info">
+                <h3>Drone Aerial View</h3>
                 <div className="drone__description">
-                    <img src="./images/drone.jpg" />
                     <p>Drone photographers control a drone or other unmanned aerial vehicle that is equipped with a camera and take pictures for their employer. You find drone photographers in a variety of industries, including real estate, TV and film, construction, GIS and surveying, events photography, and law enforcement.</p>
                 </div>
             </div>
