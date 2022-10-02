@@ -1,42 +1,25 @@
-.drone > h1 {
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-}
-
 .drone__info {
-  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hong-kong-china-1529607809.jpg");
+  background-image: url("https://venturebeat.com/business/pulitzer-winning-photographer-shows-san-francisco-at-its-stunning-best/attachment/05_vbl_0155/");
   background-repeat: no-repeat;
   background-size: cover;
-  object-fit: cover;
-
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  height: 55vh;
 }
 
 .drone__description {
   display: flex;
-  flex-direction: row;
-  margin-left: 20px;
-  margin-top: 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.drone__description > img {
-  width: 50%;
-  object-fit: cover;
-  border-radius: 5px;
+.drone__description > h1 {
+  text-transform: uppercase;
+  color: rgb(131, 131, 131);
 }
 
 .drone__description > p {
   width: 700px;
-  margin-top: 70px;
-  letter-spacing: 0.2px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin-left: 50px;
+  margin-top: 20px;
 }
 
 .drone__contact {

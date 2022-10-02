@@ -8,15 +8,16 @@ function Drone() {
     return (
         <div className="drone">
             <div className="drone__info">
-                <h3>Drone Aerial View</h3>
-                <div className="drone__description">
-                    <p>Drone photographers control a drone or other unmanned aerial vehicle that is equipped with a camera and take pictures for their employer. You find drone photographers in a variety of industries, including real estate, TV and film, construction, GIS and surveying, events photography, and law enforcement.</p>
-                </div>
             </div>
-            <div className="drone__contact">
+            <div className="drone__description">
+                <h1>Aerial View Drone</h1>
+                <p>Drone photographers control a drone or other unmanned aerial vehicle that is equipped with a camera and take pictures for their employer. You find drone photographers in a variety of industries, including real estate, TV and film, construction, GIS and surveying, events photography, and law enforcement.</p>
+            </div>
+
+            {/* <div className="drone__contact">
                 <h2>Tell us about your next idea.</h2>
                 <Link className="btn" to="#"> <button>Contact Us</button></Link>
-            </div>
+            </div> */}
 
             <DroneGrid
                 srcFirst="./images/city.jpg"
