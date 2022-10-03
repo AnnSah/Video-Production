@@ -13,7 +13,7 @@ function Contact() {
                     <h2>Contact Us</h2>
                     <p>For any request, don't hesitate to contact us.</p>
                 </div>
-                <form className="form__register">
+                <form method="POST" className="form__register">
                     <input className="form-field"
                         placeholder="Name"
                         name="Name" />
@@ -24,7 +24,7 @@ function Contact() {
 
                     <input className="form-field"
                         placeholder="Object"
-                        name="Name" />
+                        name="Object" />
                     <textarea className="form-field"
                         placeholder="Message..."
                         name="Message" />
