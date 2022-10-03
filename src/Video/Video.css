@@ -1,15 +1,7 @@
-/* .video__player {
-  display: flex;
-  justify-content: center;
-  margin-top: 5%;
-} */
-
 .video__description {
-  /* background-color: rgb(247, 244, 244); */
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding-top: 30px; */
 }
 
 .video__description > h1 {
@@ -42,3 +34,5 @@
   text-align: left;
   font-size: 18px;
 }
+
+

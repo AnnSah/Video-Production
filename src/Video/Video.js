@@ -2,6 +2,7 @@ import React from 'react';
 import "./Video.css";
 import ReactPlayer from "react-player";
 import GridVideo from './GridVideo';
+import VideoInfo from './VideoInfo';
 
 function Video() {
     return (
@@ -18,9 +19,7 @@ function Video() {
             </div>
 
             <GridVideo />
-          <div className="video__info">
-            
-          </div>
+            <VideoInfo />
         </div>
 
 

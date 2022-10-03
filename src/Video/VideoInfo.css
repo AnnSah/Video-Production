@@ -1,0 +1,23 @@
+.video__info {
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.video__icon1 {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.video__icon1 > p {
+  width: 200px;
+}
+
+.video__icon1 > h2 {
+  display: flex;
+  flex-direction: column;
+}
