@@ -1,10 +1,19 @@
 import React from 'react';
 import "./Contact.css";
 import "@mui/icons-material";
+import emailjs from "@emailjs/browser";
 import Fade from "react-reveal/Fade";
 import PageEnd from './PageEnd';
 
 function Contact() {
+    const sendEmail = (event) => {
+        event.preventDefault();
+
+        emailjs.sendForm()
+
+    };
+
+
     return (
 
         <div className="form-container">
@@ -13,7 +22,7 @@ function Contact() {
                     <h2>Contact Us</h2>
                     <p>For any request, don't hesitate to contact us.</p>
                 </div>
-                <form method="POST" className="form__register">
+                <form onSubmit={sendEmail} className="form__register">
                     <input className="form-field"
                         placeholder="Name"
                         name="Name" />
@@ -22,9 +31,9 @@ function Contact() {
                         placeholder="Email"
                         name="Email" />
 
-                    <input className="form-field"
+                    {/* <input className="form-field"
                         placeholder="Object"
-                        name="Object" />
+                        name="Object" /> */}
                     <textarea className="form-field"
                         placeholder="Message..."
                         name="Message" />
