@@ -10,22 +10,22 @@ function VideoInfo() {
     return (
         <div className="video__info">
             <div className="video__icon1">
-                <ListAltIcon sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
+                <ListAltIcon color="action" sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
                 <p>Our agency accompanies you in the realization of the script to best achieve your target and objectives.</p>
             </div>
 
             <div className="video__icon1">
-                <CameraRollIcon sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
+                <CameraRollIcon color="action" sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
                 <p>Our agency accompanies you in the realization of the script to best achieve your target and objectives.</p>
             </div>
 
             <div className="video__icon1">
-                <VideoCameraBackIcon sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
+                <VideoCameraBackIcon color="action" sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
                 <p>Our agency accompanies you in the realization of the script to best achieve your target and objectives.</p>
             </div>
 
             <div className="video__icon1">
-                <StreamIcon sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
+                <StreamIcon color="action" sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
                 <p>Our agency accompanies you in the realization of the script to best achieve your target and objectives.</p>
             </div>
 

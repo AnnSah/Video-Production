@@ -26,7 +26,7 @@
   color: rgb(71, 71, 71);
 }
 
-.video__contact > button {
+.link_ > button {
   width: 150px;
   padding: 10px;
   font-size: 15px;
@@ -35,4 +35,9 @@
   color: black;
   font-weight: 600;
   background-color: white;
+}
+
+.link_ > button:hover {
+  cursor: pointer;
+  transform: translateY(-1px);
 }

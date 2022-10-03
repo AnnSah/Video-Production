@@ -13,6 +13,7 @@ import LifeStyle from './Photo/Lifestyle/LifeStyle';
 import LandScape from './Photo/LandScape/LandScape';
 import Contact from './Contact';
 import Video from './Video/Video';
+import VideoPackage from './Video/VideoPackage/VideoPackage';
 
 
 function App() {
@@ -48,7 +49,11 @@ function App() {
           <Route path="/video">
             <Video />
           </Route>
- 
+
+          <Route path="/videopackage">
+            <VideoPackage />
+          </Route>
+
         </Switch>
 
       </Router>

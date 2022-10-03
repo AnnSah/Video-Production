@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
             <p> © 2022 Zeta Production</p>
-            <p> Privatcy · Terms · Sitemap · Company Details</p>
+            <p> Privacy · Terms · Sitemap · Company Details</p>
         </div>
     )
 }

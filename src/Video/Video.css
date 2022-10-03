@@ -35,4 +35,38 @@
   font-size: 18px;
 }
 
+.video__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 20px;
+  background-color: rgb(247, 244, 244);
+}
 
+.video__bottom > h3 {
+  font-size: 30px;
+  font-weight: 550;
+  color: rgb(63, 62, 62);
+}
+
+.video__bottom > p {
+  width: 700px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.videopack > button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 150px;
+  font-size: 15px;
+  border: none;
+  border-bottom: 3px solid rgb(119, 109, 109);
+  border-radius: 5px;
+}
+
+.videopack > button:hover {
+  cursor: pointer;
+  letter-spacing: 0.4px;
+}
