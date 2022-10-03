@@ -5,7 +5,6 @@ import ListAltIcon from '@mui/icons-material/ListAlt';
 import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 import CameraRollIcon from '@mui/icons-material/CameraRoll';
 import StreamIcon from '@mui/icons-material/Stream';
-import YouTubeIcon from '@mui/icons-material/YouTube';
 
 function VideoInfo() {
     return (

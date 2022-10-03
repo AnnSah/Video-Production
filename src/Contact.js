@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import "./Contact.css";
 import "@mui/icons-material";
 import emailjs from "@emailjs/browser";
@@ -6,13 +6,17 @@ import Fade from "react-reveal/Fade";
 import PageEnd from './PageEnd';
 
 function Contact() {
-    const sendEmail = (event) => {
-        event.preventDefault();
+    // const form = useRef();
 
-        emailjs.sendForm()
+    // const sendEmail = event => {
+    //     event.preventDefault();
 
-    };
-
+    //     emailjs.sendForm("service_2yj56lp", "template_oet6pbi", form.current, "yyV_N2w6RmVauDsOq").then((result) => {
+    //         console.log(result.text);
+    //     }, (error) => {
+    //         console.log(error.text);
+    //     });
+    // }
 
     return (
 
@@ -22,7 +26,7 @@ function Contact() {
                     <h2>Contact Us</h2>
                     <p>For any request, don't hesitate to contact us.</p>
                 </div>
-                <form onSubmit={sendEmail} className="form__register">
+                <form className="form__register">
                     <input className="form-field"
                         placeholder="Name"
                         name="Name" />
@@ -31,12 +35,9 @@ function Contact() {
                         placeholder="Email"
                         name="Email" />
 
-                    {/* <input className="form-field"
-                        placeholder="Object"
-                        name="Object" /> */}
                     <textarea className="form-field"
                         placeholder="Message..."
-                        name="Message" />
+                    />
                     <button>Submit</button>
                 </form>
             </Fade>
