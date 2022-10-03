@@ -91,7 +91,7 @@ function Home() {
 
                     <div className="row__1">
                         <HomeSection
-                            src="https://images.unsplash.com/photo-1570459725240-9c1f1532f78b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            src="./images/video.jpg"
                             title="Music Video"
                             description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
                     magnam id fuga cupiditate possimus earum expedita, nostrum
@@ -117,7 +117,7 @@ function Home() {
                     <div className="row__1 ">
 
                         <HomeSection
-                            src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                            src="./images/skin.jpg"
                             title="Product Promotion"
                             description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
                     magnam id fuga cupiditate possimus earum expedita, nostrum
