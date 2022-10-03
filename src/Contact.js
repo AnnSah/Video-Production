@@ -26,7 +26,7 @@ function Contact() {
                         placeholder="Object"
                         name="Name" />
                     <textarea className="form-field"
-                        placeholder="Message"
+                        placeholder="Message..."
                         name="Message" />
                     <button>Submit</button>
                 </form>

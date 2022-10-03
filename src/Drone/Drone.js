@@ -14,10 +14,10 @@ function Drone() {
                 <p>Drone photographers control a drone or other unmanned aerial vehicle that is equipped with a camera and take pictures for their employer. You find drone photographers in a variety of industries, including real estate, TV and film, construction, GIS and surveying, events photography, and law enforcement.</p>
             </div>
 
-            {/* <div className="drone__contact">
+            <div className="drone__contact">
                 <h2>Tell us about your next idea.</h2>
                 <Link className="btn" to="#"> <button>Contact Us</button></Link>
-            </div> */}
+            </div>
 
             <DroneGrid
                 srcFirst="./images/city.jpg"

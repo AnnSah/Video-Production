@@ -6,6 +6,7 @@
 }
 
 .drone__description {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,6 +21,7 @@
 .drone__description > p {
   width: 700px;
   margin-top: 20px;
+  font-size: 18px;
 }
 
 .drone__contact {
