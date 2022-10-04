@@ -1,6 +1,8 @@
 import React from 'react';
+import DroneVideo from './DroneVideo';
+import MusicVideo from './MusicVideo';
 import "./VideoPackage.css";
-import ReactPlayer from 'react-player';
+
 
 function VideoPackage() {
     return (
@@ -35,6 +37,11 @@ function VideoPackage() {
             <div className="break">
                 <h4>Music Videos</h4>
             </div>
+            <MusicVideo />
+            <div className="package__stats">
+                <h1>There Are 2.1 Billion Monthly Active YouTube Users Worldwide ,122 million users!</h1>
+            </div>
+            <DroneVideo />
         </div >
     )
 }

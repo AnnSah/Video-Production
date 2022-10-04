@@ -102,3 +102,12 @@
   display: flex;
   justify-content: center;
 }
+
+.package__stats {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(77, 77, 77);
+  background-color: rgb(231, 231, 231);
+}
