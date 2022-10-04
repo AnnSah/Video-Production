@@ -93,3 +93,12 @@
   text-transform: uppercase;
   color: rgb(77, 77, 77);
 }
+
+.break {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(77, 77, 77);
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  justify-content: center;
+}

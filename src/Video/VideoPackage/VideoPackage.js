@@ -1,5 +1,6 @@
 import React from 'react';
-import "./VideoPackage.css"
+import "./VideoPackage.css";
+import ReactPlayer from 'react-player';
 
 function VideoPackage() {
     return (
@@ -30,8 +31,10 @@ function VideoPackage() {
                 <p>With the impact of video on the web, multimedia content guarantees positive results in your advertising campaigns. They allow you to have a better impact than simple photos. It is important that video production  is at the heart of your strategy.
                     <b>80%</b> of online userswill watch a video, while only <b>20%</b>  will read content on the site.</p>
             </div>
-            
 
+            <div className="break">
+                <h4>Music Videos</h4>
+            </div>
         </div >
     )
 }
