@@ -28,10 +28,11 @@ function VideoPackage() {
             <div className="package__details">
                 <h1>Content creation, a winning strategy</h1>
                 <p>With the impact of video on the web, multimedia content guarantees positive results in your advertising campaigns. They allow you to have a better impact than simple photos. It is important that video production  is at the heart of your strategy.
-                    80% of online userswill watch a video, while only 20% will read content on the site.</p>
+                    <b>80%</b> of online userswill watch a video, while only <b>20%</b>  will read content on the site.</p>
             </div>
+            
 
-        </div>
+        </div >
     )
 }
 
