@@ -8,7 +8,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 function Nav() {
     return (
         <div className="nav">
-            <h4>Video Production</h4>
+            <h4>Audiovisual Production</h4>
 
             <div className="nav__icons">
                 <p><EmailIcon style={{minWidth: '50px'}} /></p>

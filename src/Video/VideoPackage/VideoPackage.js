@@ -2,6 +2,7 @@ import React from 'react';
 import DroneVideo from './DroneVideo';
 import MusicVideo from './MusicVideo';
 import "./VideoPackage.css";
+import PageEnd from '../../PageEnd';
 
 
 function VideoPackage() {
@@ -42,6 +43,11 @@ function VideoPackage() {
                 <h1>There Are 2.1 Billion Monthly Active YouTube Users Worldwide ,122 million users!</h1>
             </div>
             <DroneVideo />
+            <div className="package__end">
+                <h2>We Care!</h2>
+                <p>Each video project is unique . This is why we attach great importance to the preparation of the shoot. Therefore, our cameramen advise you for the realization of your video. The shooting is the essential element to obtain a good film.</p>
+            </div>
+            <PageEnd />
         </div >
     )
 }

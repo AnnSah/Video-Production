@@ -39,6 +39,7 @@
 .package__text > p {
   width: 600px;
   font-size: 17px;
+  line-height: 1.6;
 }
 
 .package__text > h3 {
@@ -97,6 +98,7 @@
 .break {
   font-size: 30px;
   font-weight: 400;
+  padding: 20px;
   color: rgb(77, 77, 77);
   background-color: rgb(231, 231, 231);
   display: flex;
@@ -106,8 +108,30 @@
 .package__stats {
   display: flex;
   justify-content: center;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
+  padding: 10px;
   color: rgb(77, 77, 77);
   background-color: rgb(231, 231, 231);
+}
+
+.package__end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  background-color: rgb(231, 231, 231);
+}
+
+.package__end > h2 {
+  font-size: 33px;
+  color: rgb(77, 77, 77);
+  margin-bottom: 20px;
+}
+
+.package__end > p {
+  width: 700px;
+  font-size: 17px;
+  line-height: 1.6;
 }

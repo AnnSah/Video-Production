@@ -19,8 +19,7 @@ function Home() {
         <div className="home">
             <Fade left>
                 <div className="home__info ">
-                    <span>A video production to make?</span>
-                    <button className="home__btn">Contact Us</button>
+                    <h1>Audiovisual Production</h1>
 
 
                     <div className="row">
@@ -132,7 +131,7 @@ function Home() {
                     {/* <div className="row__btm">
                     <h3>Contact us & Book an appointment</h3>
                     <button>Book now</button>
-                </div> */}
+                       </div> */}
                     <PageEnd />
                 </div>
             </Fade>
