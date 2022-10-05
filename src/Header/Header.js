@@ -1,25 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Header.css";
-import { useHistory } from "react-router-dom";
+import { Link } from 'react-router-dom';
+
 
 
 function Header() {
-    const history = useHistory();
+    const [isMobile, setIsMobile] = useState(false);
+
 
     return (
 
         <div className="header">
-            <a href="#defalut " className="logo">Zeta</a>
-            <div className="header__right">
-                <a onClick={() => history.push("/")}>Home</a>
-                <a onClick={() => history.push("/contact")}>Contact</a>
-                <a className="photo" onClick={() => history.push("/photo")}>Photo</a>
-                <a onClick={() => history.push("/video")}>Video</a>
-                <a onClick={() => history.push("/drone")}>Drone</a>
-            </div>
+            <h1 className="logo">Zeta</h1>
+            <ul className={isMobile ? "header__mobile" : "header__right"}
+                onClick={() => setIsMobile(false)}>
+                <Link to="/" className="home__headerList">
+                    <li>Home</li>
+                </Link>
+                <Link to="/contact" className="home__headerList">
+                    <li>Contact</li>
+                </Link>
+                <Link to="/photo" className="home__headerList">
+                    <li>Photo</li>
+                </Link>
+                <Link to="/video" className="home__headerList">
+                    <li>Video</li>
+                </Link>
+                <Link to="/Drone" className="home__headerList">
+                    <li>Drone</li>
+                </Link>
+            </ul>
+            <button className="hamburger__menu" onClick={() => setIsMobile(!isMobile)}>
 
-
-
+                {isMobile ? <i className="fas fa-times"></i> : <i className=" fas fa-bars"> </i>}
+            </button>
         </div >
     )
 }
