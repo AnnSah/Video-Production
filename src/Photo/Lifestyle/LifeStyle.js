@@ -8,7 +8,7 @@ function LifeStyle() {
 
     return (
         <>
-            <div className="lifestyle">
+            <div className="lifestyle"> 
                 <img src="./sub-images/lifestyle1.jpg" alt="lifestyle" />
                 <div className="lifestyle__description">
                     <h3>Lifestyle & Business Photographer</h3>

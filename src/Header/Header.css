@@ -88,6 +88,11 @@
     transition: all 0.5s ease;
   }
 
+  .home__headerList > button{
+    border: none;
+    color: red;
+  }
+
   .hamburger__menu {
     position: absolute;
     display: block;
