@@ -8,14 +8,14 @@ import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import EmojiObjectsIcon from '@mui/icons-material/EmojiObjects';
 import HandshakeIcon from '@mui/icons-material/Handshake';
 import "./Home.css"
-// import Footer from '../Footer/Footer';
+import Footer from '../Footer/Footer';
 import PhotoSection from './PhotoSection';
 import DroneSection from './DroneSection';
 import VideoSection from './VideoSection';
 import { Link } from 'react-router-dom';
 import LifeStyleSection from './LifeStyleSection';
 import Nature from './Nature';
-// import PageEnd from '../PageEnd';
+import PageEnd from '../PageEnd';
 // import Fade from "react-reveal/Fade"
 
 
@@ -62,6 +62,9 @@ function Home() {
             </div>
             <LifeStyleSection />
             <Nature />
+
+            <PageEnd />
+            <Footer />
         </div >
 
     )

@@ -1,27 +1,64 @@
-.page__bottom {
-  background-color: hsl(0, 0%, 0%);
-  color: white;
+.page__end {
   display: flex;
-  width: 90%;
-  padding: 40px 40px;
-  margin: auto;
   flex-direction: row;
-  justify-items: flex-start;
-  justify-content: space-evenly;
   align-items: center;
-  margin-top: 80px;
-  margin-left: 5%;
-  margin-bottom: 5%;
-  text-align: left;
+  margin-top: 1rem;
+  padding: 30px 20px;
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 
-.page__card1 {
-  margin-right: 10%;
-}
-.page__card1 > h2 {
-  margin-bottom: 15px;
+.page__end__details {
+  margin-left: 5rem;
+  margin-bottom: 9rem;
 }
 
-.page__card2 > h2 {
-  margin-bottom: 15px;
+.page__end__details > h2 {
+  margin-bottom: 1rem;
+}
+
+.page__end__details > p {
+  width: min(90%, 500px);
+  margin-bottom: 2rem;
+}
+.page__end__btm {
+  margin-top: 0.5rem;
+  border-top: 1px solid #ffff;
+}
+
+.page__end__btm > h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.page__end__btm > p {
+  width: min(90%, 500px);
+}
+
+.page__end__description {
+  margin-left: 8rem;
+  margin-bottom: 7rem;
+}
+
+.page__end__description > h2 {
+  margin-bottom: 2rem;
+}
+
+.page__end__description > p {
+  width: min(90%, 500px);
+ 
+}
+.page__end__contact {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-top: 1px solid #ffff;
+}
+.page__end__contact > h2 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.page__end__contact .icons {
+  padding: 2rem;
+  margin-right: 8rem;
 }

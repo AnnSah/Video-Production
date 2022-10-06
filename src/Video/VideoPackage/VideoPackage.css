@@ -121,6 +121,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
   padding: 35px;
   background-color: rgb(231, 231, 231);
 }
