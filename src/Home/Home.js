@@ -23,7 +23,7 @@ function Home() {
 
     return (
         <div className="home">
-            <img alt="cameraman" />
+            <img />
             <div className="home__title">
                 <h1>Audiovisual Production</h1>
             </div>

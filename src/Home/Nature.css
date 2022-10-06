@@ -1,38 +1,37 @@
-.lifestyle__section {
+.nature__section {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
-  padding: 3rem;
-  border-bottom: 1px solid rgb(221, 221, 221);
+  margin: 3%;
 }
 
-.lifestyle__section > img {
+.nature__section > img {
   width: 50%;
   height: 30%;
-  margin-left: 5%;
+  margin-right: 6%;
 }
 
-.lifestyle__section__details {
-  padding: 3rem;
+.nature__details {
+  padding: 5rem;
 }
 
-.lifestyle__section__details > h2 {
+.nature__details > h2 {
   margin-bottom: 2rem;
-  font-size: 28px;
+  font-size: 27px;
   font-weight: 500;
 }
 
-.lifestyle__section__details > h4 {
-  margin-bottom: 1rem;
-  font-size: 17px;
+.nature__details > h4 {
+  margin-bottom: 1.5rem;
   color: rgb(71, 71, 71);
 }
 
-.lifestyle__section__details > p {
+.nature__details > p {
   width: min(90%, 500px);
   line-height: 1.6;
 }
 
-.lifestyle__details__btn > button {
+.nature__details__btn > button {
   margin-top: 1.5rem;
   padding: 0.8rem;
   width: 20%;
@@ -42,7 +41,7 @@
   border-radius: 5px;
 }
 
-.lifestyle__details__btn > button:hover {
+.nature__details__btn > button:hover {
   background-color: rgb(221, 221, 221);
   letter-spacing: 0.5px;
   cursor: pointer;
