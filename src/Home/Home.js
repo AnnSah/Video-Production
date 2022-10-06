@@ -6,15 +6,14 @@ import AddAPhotoIcon from '@mui/icons-material/AddAPhoto';
 import HdIcon from '@mui/icons-material/Hd';
 import "./Home.css"
 // import Footer from '../Footer/Footer';
-// import HomeSection from './HomeSection';
+import PhotoSection from './PhotoSection';
+import DroneSection from './DroneSection';
 // import PageEnd from '../PageEnd';
 // import Fade from "react-reveal/Fade"
-import { useHistory } from 'react-router-dom';
-
 
 
 function Home() {
-    const history = useHistory();
+
     return (
         <div className="home">
             <img />
@@ -34,7 +33,8 @@ function Home() {
             </div>
 
             <div className="home__category">
-                <img src="./homeimg/photographer.jpg" />
+                <PhotoSection />
+                <DroneSection />
             </div>
         </div >
 

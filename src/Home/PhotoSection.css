@@ -1,0 +1,40 @@
+.home__image {
+  display: flex;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.home__image > img {
+  width: 50%;
+  height: 30%;
+  object-fit: cover;
+}
+
+.home__details {
+  padding: 3rem;
+}
+
+.home__details > h2 {
+  margin-bottom: 2rem;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.home__details > p {
+  width: min(90%, 500px);
+}
+
+.button__details > button {
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  width: 20%;
+  font-size: 16px;
+  border: none;
+  border-bottom: 3px solid rgb(1, 1, 82);
+  border-radius: 5px;
+}
+
+.button__details > button:hover {
+  background-color: rgb(221, 221, 221);
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
