@@ -19,8 +19,15 @@
   font-weight: 500;
 }
 
+.home__details > h4 {
+  margin-bottom: 1rem;
+  font-size: 17px;
+  color: rgb(71, 71, 71);
+}
+
 .home__details > p {
   width: min(90%, 500px);
+  line-height: 1.6;
 }
 
 .button__details > button {

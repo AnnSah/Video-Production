@@ -32,9 +32,8 @@
 }
 
 .photo__info > p {
+  width: min(90%, 700px);
   font-size: 18px;
-  width: 50%;
-  /* margin: 30px 80px; */
   margin-left: 30px;
   margin-bottom: 20px;
 }

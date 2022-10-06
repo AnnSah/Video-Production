@@ -2,6 +2,7 @@
   margin: 3%;
   display: flex;
   flex-direction: row-reverse;
+  border-bottom: 1px solid rgb(221, 221, 221);
 }
 
 .drone__section > img {
@@ -20,8 +21,15 @@
   font-weight: 500;
 }
 
+.drone__section__details > h4 {
+  margin-bottom: 1rem;
+  font-size: 17px;
+  color: rgb(71, 71, 71);
+}
+
 .drone__section__details > p {
-  width: min(90%, 1000px);
+  width: min(90%, 500px);
+  line-height: 1.6;
 }
 
 .drone__section__btn > button {

@@ -8,6 +8,7 @@ import "./Home.css"
 // import Footer from '../Footer/Footer';
 import PhotoSection from './PhotoSection';
 import DroneSection from './DroneSection';
+import VideoSection from './VideoSection';
 // import PageEnd from '../PageEnd';
 // import Fade from "react-reveal/Fade"
 
@@ -35,6 +36,7 @@ function Home() {
             <div className="home__category">
                 <PhotoSection />
                 <DroneSection />
+                <VideoSection />
             </div>
         </div >
 

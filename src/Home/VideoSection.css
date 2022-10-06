@@ -1,0 +1,46 @@
+.video__section {
+  display: flex;
+}
+
+.video__section > img {
+  width: 50%;
+  height: 30%;
+  border-radius: 3px;
+}
+
+.video__section__details {
+  padding: 3rem;
+}
+
+.video__section__details > h2 {
+  margin-bottom: 1.8rem;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.video__section__details > h4 {
+  font-size: 17px;
+  margin-bottom: 1.3rem;
+  color: rgb(71, 71, 71);
+}
+
+.video__section__details > p {
+  width: min(90%, 500px);
+  line-height: 1.6;
+}
+
+.video__section__btn > button {
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  width: 20%;
+  font-size: 16px;
+  border: none;
+  border-bottom: 3px solid rgb(1, 1, 82);
+  border-radius: 5px;
+}
+
+.video__section__btn > button:hover {
+  background-color: rgb(221, 221, 221);
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
