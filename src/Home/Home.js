@@ -13,6 +13,8 @@ import PhotoSection from './PhotoSection';
 import DroneSection from './DroneSection';
 import VideoSection from './VideoSection';
 import { Link } from 'react-router-dom';
+import LifeStyleSection from './LifeStyleSection';
+import Nature from './Nature';
 // import PageEnd from '../PageEnd';
 // import Fade from "react-reveal/Fade"
 
@@ -58,6 +60,8 @@ function Home() {
                 </div>
 
             </div>
+            <LifeStyleSection />
+            <Nature />
         </div >
 
     )
