@@ -3,8 +3,9 @@
 }
 
 .video__section > img {
-  width: 50%;
+  width: 40%;
   height: 30%;
+  margin-left: 3%;
   border-radius: 3px;
 }
 
