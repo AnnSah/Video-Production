@@ -18,7 +18,7 @@ function PageEnd() {
             </div>
 
             <div className="page__end__description">
-                <h2>Out Work</h2>
+                <h2>Our Work</h2>
                 <p>Each video and photo project is unique . This is why we attach great importance to the preparation of the shoot. Therefore, our cameramen advise you for the realization of your video. The shooting is the essential element to obtain a good film.</p>
 
                 <div className="page__end__contact">
