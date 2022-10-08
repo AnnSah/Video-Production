@@ -30,7 +30,7 @@
 }
 
 .video__description_2 > p {
-  width: 30%;
+  width: min(90%, 400px);
   text-align: left;
   font-size: 18px;
 }
@@ -51,7 +51,7 @@
 }
 
 .video__bottom > p {
-  width: 700px;
+  width: min(90%, 700px) ;
   font-size: 18px;
   margin-top: 10px;
 }
