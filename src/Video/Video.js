@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import ReactPlayer from "react-player";
 import GridVideo from './GridVideo';
 import VideoInfo from './VideoInfo';
+import PageEnd from "../PageEnd";
 
 function Video() {
     return (
@@ -29,7 +30,7 @@ function Video() {
                 <Link to="/videopackage" className="videopack">
                     <button>Learn More</button></Link>
             </div>
-
+            <PageEnd />
             <Footer />
         </div>
 
