@@ -46,7 +46,6 @@
 
 .page__end__description > p {
   width: min(90%, 500px);
- 
 }
 .page__end__contact {
   margin-top: 2rem;
@@ -61,4 +60,10 @@
 .page__end__contact .icons {
   padding: 2rem;
   margin-right: 8rem;
+}
+
+@media (max-width: 500px) {
+  .page__end {
+    display: none;
+  }
 }

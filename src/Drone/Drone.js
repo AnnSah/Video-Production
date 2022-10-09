@@ -2,7 +2,7 @@ import React from 'react';
 import "./Drone.css";
 import DroneGrid from './DroneGrid';
 import { Link } from 'react-router-dom';
-import PageEnd from "../PageEnd";
+// import PageEnd from "../PageEnd";
 
 function Drone() {
     return (
@@ -35,7 +35,7 @@ function Drone() {
                 srcThirteenth="./images/fields.jpg" />
 
 
-            <PageEnd />
+            {/* <PageEnd /> */}
         </div>
 
     )

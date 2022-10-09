@@ -16,54 +16,56 @@ import { Link } from 'react-router-dom';
 import LifeStyleSection from './LifeStyleSection';
 import Nature from './Nature';
 import PageEnd from '../PageEnd';
-// import Fade from "react-reveal/Fade"
+import Fade from "react-reveal/Fade"
 
 
 function Home() {
 
     return (
         <div className="home">
-            <img />
-            <div className="home__title">
-                <h1>Audiovisual Production</h1>
-            </div>
-
-            <div className="home__production">
-                <h2>Zeta</h2>
-                <p>As pointed out by Sokanu, A “Videographer is someone who is responsible for recording live events and small scale video productions. Videographers focus on smaller productions like documentaries, live events, short films, legal depositions, weddings, birthday parties, sports events, commercials, and training videos.</p>
-                <div className="home__icons">
-                    <Link to="/videopackage">
-                        <TheatersIcon color="action" sx={{ fontSize: 80 }} style={{ minWidth: '180px' }} /></Link>
-                    <OndemandVideoIcon color="action" sx={{ fontSize: 80 }} style={{ minWidth: '180px' }} />
-                    <Link to="/photo">
-                        <AddAPhotoIcon color="action" sx={{ fontSize: 80 }} style={{ minWidth: '180px' }} />
-                    </Link>
-                    <HdIcon color="action" sx={{ fontSize: 80 }} style={{ minWidth: '180px' }} />
-                </div>
-            </div>
-
-            <div className="home__category">
-                <PhotoSection />
-                <DroneSection />
-                <VideoSection />
-            </div>
-
-            <div className="home__contact__category">
-                <h1>Let's work together</h1>
-                <div className="home__contact__details">
-                    <AlternateEmailIcon sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
-                    <p>Contact or E-mail us </p>
-                    <EmojiObjectsIcon sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
-                    <p>Tell us about your idea</p>
-                    <HandshakeIcon sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
-                    <p>And let's collaborate</p>
+            <Fade bottom>
+                <img />
+                <div className="home__title">
+                    <h1>Audiovisual Production</h1>
                 </div>
 
-            </div>
-            <LifeStyleSection />
-            <Nature />
+                <div className="home__production">
+                    <h2>Zeta</h2>
+                    <p>As pointed out by Sokanu, A “Videographer is someone who is responsible for recording live events and small scale video productions. Videographers focus on smaller productions like documentaries, live events, short films, legal depositions, weddings, birthday parties, sports events, commercials, and training videos.</p>
+                    <div className="home__icons">
+                        <Link to="/videopackage">
+                            <TheatersIcon color="action" sx={{ fontSize: 80 }} style={{ minWidth: '180px' }} /></Link>
+                        <OndemandVideoIcon color="action" sx={{ fontSize: 80 }} style={{ minWidth: '180px' }} />
+                        <Link to="/photo">
+                            <AddAPhotoIcon color="action" sx={{ fontSize: 80 }} style={{ minWidth: '180px' }} />
+                        </Link>
+                        <HdIcon color="action" sx={{ fontSize: 80 }} style={{ minWidth: '180px' }} />
+                    </div>
+                </div>
 
-            <PageEnd />
+                <div className="home__category">
+                    <PhotoSection />
+                    <DroneSection />
+                    <VideoSection />
+                </div>
+
+                <div className="home__contact__category">
+                    <h1>Let's work together</h1>
+                    <div className="home__contact__details">
+                        <AlternateEmailIcon sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
+                        <p>Contact or E-mail us </p>
+                        <EmojiObjectsIcon sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
+                        <p>Tell us about your idea</p>
+                        <HandshakeIcon sx={{ fontSize: 80 }} style={{ minWidth: '100px' }} />
+                        <p>And let's collaborate</p>
+                    </div>
+
+                </div>
+                <LifeStyleSection />
+                <Nature />
+
+                <PageEnd />
+            </Fade>
             <Footer />
         </div >
 
