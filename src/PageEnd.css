@@ -62,8 +62,29 @@
   margin-right: 8rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   .page__end {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+  .page__end__details {
+    margin-left: 10%;
+  }
+
+  .page__end__description {
+    margin-left: 10%;
+    border-top: 1px solid #ffff;
+  }
+
+  .page__end__description > h2 {
+    margin-top: 2rem;
+  }
+
+  .page__end__contact > .icons {
+    margin-right: 0;
+    width: 40%;
   }
 }

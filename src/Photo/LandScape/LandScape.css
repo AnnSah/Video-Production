@@ -17,7 +17,7 @@
 }
 
 .landscape__description > p {
-  width: 700px;
+  width: min(90%, 500px);
   font-weight: 400;
 }
 
@@ -44,4 +44,25 @@
   background-color: black;
   color: white;
   box-shadow: 1px 1px rgb(121, 119, 119);
+}
+
+@media (max-width: 768px) {
+  .landscape {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landscape > img {
+    width: 100%;
+  }
+
+  .landscape__description > h3 {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .link__lds > button {
+    width: 50%;
+    margin-left: 15%;
+  }
 }

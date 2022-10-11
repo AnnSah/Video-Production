@@ -63,7 +63,7 @@ h3 {
   cursor: pointer;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 767px) {
   .link__button > button {
     margin-left: 0;
     width: 50%;

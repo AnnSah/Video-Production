@@ -26,10 +26,10 @@ function PageEnd() {
                     <p>Contact Us through E-mail, or our social networks!</p>
                 </div>
                 <div className="icons">
-                    <Email sx={{ fontSize: 50 }} style={{ minWidth: '80px' }} />
-                    <InstagramIcon sx={{ fontSize: 50 }} style={{ minWidth: '80px' }} />
-                    <YouTubeIcon sx={{ fontSize: 50 }} style={{ minWidth: '80px' }} />
-                    <FacebookIcon sx={{ fontSize: 50 }} style={{ minWidth: '80px' }} />
+                    <Email sx={{ fontSize: 50 }} style={{ minWidth: '70px' }} />
+                    <InstagramIcon sx={{ fontSize: 50 }} style={{ minWidth: '70px' }} />
+                    <YouTubeIcon sx={{ fontSize: 50 }} style={{ minWidth: '70px' }} />
+                    <FacebookIcon sx={{ fontSize: 50 }} style={{ minWidth: '70px' }} />
                 </div>
             </div>
 

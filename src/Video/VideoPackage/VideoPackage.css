@@ -20,7 +20,7 @@
 }
 
 .package__description {
-  margin: 50px;
+  margin: 70px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -30,14 +30,15 @@
 .package__description > img {
   width: 30%;
   border-radius: 2px;
+  margin-left: 100px;
 }
 
 .package__text {
-  margin-left: 25px;
+  margin-left: 20%;
 }
 
 .package__text > p {
-  width: 600px;
+  width: min(90%, 400px);
   font-size: 17px;
   line-height: 1.6;
 }
@@ -61,6 +62,11 @@
 .package__granding > img {
   width: 30%;
   border-radius: 2px;
+  margin-right: 150px;
+}
+
+.package__granding_text {
+  margin-left: 100px;
 }
 
 .package__granding_text > h3 {
@@ -71,8 +77,8 @@
 }
 
 .package__granding_text > p {
-  width: 700px;
-  margin-right: 30px;
+  width: min(90%, 700px);
+  margin-right: 60px;
   font-size: 17px;
   line-height: 1.6;
 }
@@ -85,7 +91,7 @@
 }
 
 .package__details > p {
-  width: 700px;
+  width: min(90%, 700px);
   font-size: 18px;
   line-height: 1.6;
 }
@@ -133,7 +139,78 @@
 }
 
 .package__end > p {
-  width: 700px;
+  width: min(90%, 700px);
   font-size: 17px;
   line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+  .package__title > h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .package__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .package__description > img {
+    width: 120%;
+    margin-left: 5%;
+  }
+
+  .package__text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .package__text > h3 {
+    margin-right: 18px;
+    margin-top: 15px;
+  }
+  .package__text > p {
+    width: 120%;
+  }
+
+  .package__granding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .package__granding > img {
+    width: 100%;
+    margin-right: 3px;
+  }
+
+  .package__granding_text {
+    margin-top: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .package__granding_text > h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 30%;
+  }
+
+  .package__details > h1 {
+    font-size: 20px;
+    margin-left: 13%;
+  }
+
+  .package__stats {
+    padding-left: 8%;
+  }
 }

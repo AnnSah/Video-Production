@@ -19,7 +19,6 @@
   align-items: center;
   letter-spacing: 0.1px;
   margin-top: 28rem;
-  /* margin-left: 100px; */
 }
 
 .photo__info > h2 {
@@ -39,14 +38,16 @@
 }
 
 @media (max-width: 500px) {
+  .photo__info > p {
+    font-size: 16px;
+    margin-bottom: 5%;
+  }
+
   .photo__info {
-    margin-bottom: 50px;
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
+    background-color: white;
   }
 
   .photo__info > h2 {
-    margin-bottom: 5px;
+    margin-top: 0%;
   }
 }

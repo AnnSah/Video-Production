@@ -118,4 +118,11 @@
     width: 100%;
     margin-top: 20px;
   }
+
+  .drone__description > h1 {
+    margin-right: 2%;
+  }
+  .drone__description > p {
+    margin-left: 3%;
+  }
 }

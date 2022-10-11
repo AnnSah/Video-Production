@@ -17,7 +17,7 @@ function VideoPackage() {
                 <img src="./images2/editing.jpg" alt="man editing" />
                 <div className="package__text">
                     <h3>Video Editing</h3>
-                    <p>Video editing is one of the most important steps in your audio visual production project. This is why our video editing experts bring you all their expertise in this area. A beautiful video capture combined with a controlled editing will offer you a quality production.</p>
+                    <p>Video editing is one of the most important steps in your audio visual production project. This is why our video editing experts bring you all their expertise in this area.</p>
                 </div>
             </div>
 
@@ -25,7 +25,7 @@ function VideoPackage() {
                 <img src="./images2/color.jpg" alt="color editing" />
                 <div className="package__granding_text">
                     <h3>Video & Color Granding</h3>
-                    <p>Color grading is an important step in the filmmaking process. Yet many underestimate it. First, the retouching of colors and brightness improves the rendering of the video . Then, the color grading gives a particular atmosphere to the videos. Finally, video dressing makes it possible to embed titles, subtitles or graphics  in a film. Therefore, a handy step when wanting to provide additional information in a video.</p>
+                    <p>Color grading is an important step in the filmmaking process. Yet many underestimate it. First, the retouching of colors and brightness improves the rendering of the video . Then, the color grading gives a particular atmosphere to the videos.</p>
                 </div>
             </div>
 
