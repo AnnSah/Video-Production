@@ -51,11 +51,15 @@
   .home__image {
     display: flex;
     flex-direction: column;
-    margin-bottom: 3%;
+    margin-top: 30%;
   }
 
   .home__image > img {
     width: 110%;
+  }
+
+  .home__details > h2 {
+    text-align: center;
   }
 
   .home__details > p {
@@ -63,7 +67,6 @@
   }
 
   .button__details > button {
-    width: 50%;
-    margin-left: 2rem;
+    width: 70%;
   }
 }
