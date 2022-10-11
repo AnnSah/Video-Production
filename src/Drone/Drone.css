@@ -99,7 +99,7 @@
   grid-row: span 2;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   .image__grid {
     --num--cols: 1;
   }
@@ -123,6 +123,6 @@
     margin-right: 2%;
   }
   .drone__description > p {
-    margin-left: 3%;
+    padding: 8%;
   }
 }

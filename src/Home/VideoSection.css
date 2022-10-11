@@ -46,3 +46,10 @@
   letter-spacing: 0.5px;
   cursor: pointer;
 }
+
+@media (max-width: 767px) {
+  .video__section {
+    display: flex;
+    flex-direction: column;
+  }
+}

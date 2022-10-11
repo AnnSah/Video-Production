@@ -32,7 +32,7 @@
 }
 
 .home__production > p {
-  width: min(90%, 700px);
+  width: min(90%, 500px);
   line-height: 1.6;
 }
 
@@ -71,4 +71,23 @@
 
 .home__contact__details > p {
   font-size: 17px;
+}
+
+@media (max-width: 767px) {
+  .home__title > h1 {
+    display: none;
+  }
+
+  .home__icons {
+    display: none;
+  }
+
+  .home__production > p {
+    padding: 5% 10.8%;
+    width: 120%;
+    margin-left: 5%;
+  }
+  .home__contact__category {
+    display: none;
+  }
 }

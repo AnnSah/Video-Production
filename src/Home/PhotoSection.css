@@ -46,3 +46,24 @@
   letter-spacing: 0.5px;
   cursor: pointer;
 }
+
+@media (max-width: 767px) {
+  .home__image {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+  }
+
+  .home__image > img {
+    width: 110%;
+  }
+
+  .home__details > p {
+    width: 130%;
+  }
+
+  .button__details > button {
+    width: 50%;
+    margin-left: 2rem;
+  }
+}

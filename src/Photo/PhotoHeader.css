@@ -50,4 +50,8 @@
   .photo__info > h2 {
     margin-top: 0%;
   }
+
+  .photo__info > p {
+    padding: 5% ;
+  }
 }

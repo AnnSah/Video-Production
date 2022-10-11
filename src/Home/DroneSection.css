@@ -48,3 +48,31 @@
   letter-spacing: 0.5px;
   cursor: pointer;
 }
+
+@media (max-width: 767px) {
+  .drone__section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .drone__section > img {
+    width: 110%;
+  }
+
+  .drone__section__details {
+    margin-right: 50%;
+    margin-bottom: 50%;
+  }
+
+  .drone__section__details > p {
+    width: 280%;
+  }
+
+  .drone__section__details > h2 {
+    font-size: 20px;
+  }
+
+  .drone__section__btn > button {
+    width: 150%;
+  }
+}
