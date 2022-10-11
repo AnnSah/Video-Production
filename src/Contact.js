@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import "./Contact.css";
 import "@mui/icons-material";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import Fade from "react-reveal/Fade";
 import PageEnd from './PageEnd';
 

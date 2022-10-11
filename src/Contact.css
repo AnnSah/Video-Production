@@ -71,3 +71,19 @@
 .form-field:focus {
   border-color: rgb(197, 197, 197);
 }
+
+@media (max-width: 767px) {
+  .form__register {
+    background-image: none;
+  }
+
+  .form-field {
+    width: 200%;
+    border: 2px solid #808080;
+  }
+
+  .form__register > button {
+    width: 200%;
+    background-color: rgb(165, 165, 165);
+  }
+}
