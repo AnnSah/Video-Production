@@ -58,6 +58,10 @@
     width: 110%;
   }
 
+  .home__details {
+    margin-right: 10%;
+  }
+
   .home__details > h2 {
     text-align: center;
   }

@@ -58,6 +58,10 @@
     width: 120%;
   }
 
+  .lifestyle__section__details {
+    margin-right: 10%;
+  }
+
   .lifestyle__section__details > h2 {
     font-size: 20px;
     text-align: center;

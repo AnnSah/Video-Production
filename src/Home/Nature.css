@@ -58,6 +58,10 @@
     margin-right: 1%;
   }
 
+  .nature__details {
+    margin-right: 10%;
+  }
+
   .nature__details > h2 {
     text-align: center;
   }

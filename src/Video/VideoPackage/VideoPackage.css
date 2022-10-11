@@ -168,6 +168,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin-left: 1%;
   }
 
   .package__text > h3 {
@@ -200,9 +201,14 @@
   }
 
   .package__granding_text > h3 {
-    font-size: 18px;
+    font-size: 20px;
+    text-align: center;
     font-weight: bold;
     margin-right: 30%;
+  }
+
+  .package__granding_text > p {
+    width: 120%;
   }
 
   .package__details > h1 {
