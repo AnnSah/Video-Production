@@ -38,7 +38,7 @@
   grid-row: span 1;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   .image__grid {
     --num--cols: 1;
   }

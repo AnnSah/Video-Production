@@ -30,7 +30,7 @@
   grid-column: span2;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   .land__layout {
     --num-cols: 1;
   }

@@ -42,7 +42,7 @@
   transform: translateY(-1px);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
   .video__contact {
     display: flex;
     flex-direction: column;
